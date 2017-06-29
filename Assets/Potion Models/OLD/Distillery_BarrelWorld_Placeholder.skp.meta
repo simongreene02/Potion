@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 69f90d05c73f8bb48aae0814c38c7db8
+timeCreated: 1468886090
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 1
+  mergeCoplanarFaces: 1
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 54134fc449cfa2841e64810d3545d765
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 4.251382, y: 1.162646, z: 6.977012}
+      lookAt: {x: -28.377071, y: -7.637064, z: -18.225443}
+      up: {x: -0.16519564, y: 0.9779719, z: -0.12759833}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _Whiskey Barrel_; filename_=utf-8''Whiskey+Barrel#1
+    100002: //RootNode
+    100004: Group 11
+    100006: Group 13
+    100008: Group 15
+    100010: Group 17
+    100012: Group 19
+    100014: Group 21
+    100016: Group 23
+    100018: Group 25
+    100020: Group 27
+    100022: Group 29
+    100024: Group 3
+    100026: Group 31
+    100028: Group 33
+    100030: Group 35
+    100032: Group 37
+    100034: Group 39
+    100036: Group 5
+    100038: Group 7
+    100040: Group 9
+    400000: _Whiskey Barrel_; filename_=utf-8''Whiskey+Barrel#1
+    400002: //RootNode
+    400004: Group 11
+    400006: Group 13
+    400008: Group 15
+    400010: Group 17
+    400012: Group 19
+    400014: Group 21
+    400016: Group 23
+    400018: Group 25
+    400020: Group 27
+    400022: Group 29
+    400024: Group 3
+    400026: Group 31
+    400028: Group 33
+    400030: Group 35
+    400032: Group 37
+    400034: Group 39
+    400036: Group 5
+    400038: Group 7
+    400040: Group 9
+    2300000: _Whiskey Barrel_; filename_=utf-8''Whiskey+Barrel#1
+    2300002: Group 11
+    2300004: Group 13
+    2300006: Group 15
+    2300008: Group 17
+    2300010: Group 19
+    2300012: Group 21
+    2300014: Group 23
+    2300016: Group 25
+    2300018: Group 27
+    2300020: Group 29
+    2300022: Group 3
+    2300024: Group 31
+    2300026: Group 33
+    2300028: Group 35
+    2300030: Group 37
+    2300032: Group 39
+    2300034: Group 5
+    2300036: Group 7
+    2300038: Group 9
+    3300000: _Whiskey Barrel_; filename_=utf-8''Whiskey+Barrel#1
+    3300002: Group 11
+    3300004: Group 13
+    3300006: Group 15
+    3300008: Group 17
+    3300010: Group 19
+    3300012: Group 21
+    3300014: Group 23
+    3300016: Group 25
+    3300018: Group 27
+    3300020: Group 29
+    3300022: Group 3
+    3300024: Group 31
+    3300026: Group 33
+    3300028: Group 35
+    3300030: Group 37
+    3300032: Group 39
+    3300034: Group 5
+    3300036: Group 7
+    3300038: Group 9
+    4300000: Mesh _Whiskey Barrel_; filename_=utf-8''Whiskey+Barrel#1
+    4300002: Mesh Group 3
+    4300004: Mesh Group 5
+    4300006: Mesh Group 7
+    4300008: Mesh Group 9
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

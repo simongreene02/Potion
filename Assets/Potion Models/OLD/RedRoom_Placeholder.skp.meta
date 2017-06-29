@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 230bb6ef50a13284ca530fd7972765cf
+timeCreated: 1468973512
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 1
+  mergeCoplanarFaces: 1
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 007f19531042f1a6e1b6c408b5308cff
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 10.387641, y: 14.358088, z: 22.072191}
+      lookAt: {x: 9.6595125, y: 11.254038, z: 17.204296}
+      up: {x: -0.07891076, y: 0.8458466, z: -0.5275572}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _shabby chic mirror_; filename_=utf-8''shabby+chic+mirror
+    100002: Group 12
+    100004: Group 15
+    100006: Group 3
+    100008: Group 6
+    100010: Group 9
+    100012: //RootNode
+    100014: Tufted Couch Seat
+    100016: Tufted Couch Seat 1
+    100018: Tufted Couch Seat 2
+    100020: Tufted Couch Seat 3
+    400000: _shabby chic mirror_; filename_=utf-8''shabby+chic+mirror
+    400002: Group 12
+    400004: Group 15
+    400006: Group 3
+    400008: Group 6
+    400010: Group 9
+    400012: //RootNode
+    400014: Tufted Couch Seat
+    400016: Tufted Couch Seat 1
+    400018: Tufted Couch Seat 2
+    400020: Tufted Couch Seat 3
+    2300000: Group 12
+    2300002: Group 15
+    2300004: Group 3
+    2300006: Group 6
+    2300008: Group 9
+    2300010: //RootNode
+    3300000: Group 12
+    3300002: Group 15
+    3300004: Group 3
+    3300006: Group 6
+    3300008: Group 9
+    3300010: //RootNode
+    4300000: Mesh RedRoom_Placeholder
+    4300002: Mesh Group 3
+    4300004: Mesh Group 15
+    6400000: Group 12
+    6400002: Group 15
+    6400004: Group 3
+    6400006: Group 6
+    6400008: Group 9
+    6400010: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

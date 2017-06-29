@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test - Copy.Plugins", "Potion Dollhouse Test - Copy.Plugins.csproj", "{0815DE33-AFD5-428A-052A-25BE37E49440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test - Copy", "Potion Dollhouse Test - Copy.csproj", "{565FFDE8-662D-18D9-063F-E2381F1AB44E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test - Copy.Editor", "Potion Dollhouse Test - Copy.Editor.csproj", "{3B06AA3B-8D81-E523-7AEC-C1E350AD4735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0815DE33-AFD5-428A-052A-25BE37E49440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0815DE33-AFD5-428A-052A-25BE37E49440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0815DE33-AFD5-428A-052A-25BE37E49440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0815DE33-AFD5-428A-052A-25BE37E49440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565FFDE8-662D-18D9-063F-E2381F1AB44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565FFDE8-662D-18D9-063F-E2381F1AB44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565FFDE8-662D-18D9-063F-E2381F1AB44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565FFDE8-662D-18D9-063F-E2381F1AB44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B06AA3B-8D81-E523-7AEC-C1E350AD4735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B06AA3B-8D81-E523-7AEC-C1E350AD4735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B06AA3B-8D81-E523-7AEC-C1E350AD4735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B06AA3B-8D81-E523-7AEC-C1E350AD4735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

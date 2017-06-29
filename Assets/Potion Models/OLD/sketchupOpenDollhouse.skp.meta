@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 10a6f696dc73cb743881da6fccd8bc13
+timeCreated: 1468265335
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 0d14e2040c05d545b5063933c71afedf
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.17068882, y: 0.616063, z: -2.423758}
+      lookAt: {x: 76.48867, y: -23.904526, z: 142.7567}
+      up: {x: 0.06879812, y: 0.98900884, z: 0.13087535}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1st floor stairs 45 degrees
+    100002: 2nd floor stairs 45 DEGREES
+    100004: boxsash.dxf
+    100006: boxsash.dxf 1
+    100008: boxsash.dxf 2
+    100010: boxsash.dxf 3
+    100012: boxsash.dxf 4
+    100014: boxsash.dxf 5
+    100016: boxsash.dxf 6
+    100018: boxsash.dxf 7
+    100020: boxsash.dxf#1
+    100022: boxsash.dxf#1 1
+    100024: dollhouse primed (open)
+    100026: dollhouse shell
+    100028: dollhouse spindle
+    100030: dollhouse spindle 1
+    100032: dollhouse spindle 10
+    100034: dollhouse spindle 11
+    100036: dollhouse spindle 12
+    100038: dollhouse spindle 13
+    100040: dollhouse spindle 14
+    100042: dollhouse spindle 15
+    100044: dollhouse spindle 16
+    100046: dollhouse spindle 17
+    100048: dollhouse spindle 18
+    100050: dollhouse spindle 19
+    100052: dollhouse spindle 2
+    100054: dollhouse spindle 20
+    100056: dollhouse spindle 21
+    100058: dollhouse spindle 22
+    100060: dollhouse spindle 23
+    100062: dollhouse spindle 3
+    100064: dollhouse spindle 4
+    100066: dollhouse spindle 5
+    100068: dollhouse spindle 6
+    100070: dollhouse spindle 7
+    100072: dollhouse spindle 8
+    100074: dollhouse spindle 9
+    100076: dollhousecreen door
+    100078: French door
+    100080: Group 100
+    100082: Group 112
+    100084: Group 113
+    100086: Group 115
+    100088: Group 154
+    100090: Group 156
+    100092: Group 158
+    100094: Group 160
+    100096: Group 162
+    100098: Group 164
+    100100: Group 166
+    100102: Group 168
+    100104: Group 170
+    100106: Group 172
+    100108: Group 174
+    100110: Group 176
+    100112: Group 178
+    100114: Group 180
+    100116: Group 182
+    100118: Group 184
+    100120: Group 186
+    100122: Group 188
+    100124: Group 190
+    100126: Group 192
+    100128: Group 194
+    100130: Group 196
+    100132: Group 198
+    100134: Group 200
+    100136: Group 202
+    100138: Group 204
+    100140: Group 30
+    100142: Group 37
+    100144: Group 55
+    100146: Group 57
+    100148: Group 59
+    100150: Group 60
+    100152: Group 62
+    100154: Group 78
+    100156: Group 79
+    100158: Group 81
+    100160: Group 97
+    100162: Group 98
+    100164: Group#14
+    100166: Group#14 1
+    100168: intdoor2.dxf
+    100170: left front 2
+    100172: Newel Post 1
+    100174: Newel Post 1 1
+    100176: Newel Post 1 2
+    100178: Newel Post 1 3
+    100180: Newel Post 1 4
+    100182: Newel Post 1 5
+    100184: Newel Post 1#1
+    100186: Newel Post 1#1 1
+    100188: right dormer 2
+    100190: Right Front
+    100192: right front added windoes
+    100194: ROOF BOTH DORMERS
+    100196: roof front
+    100198: simple dormer window
+    100200: simple dormer window 1
+    100202: //RootNode
+    100204: Small dormer
+    100206: small dormer w window
+    100208: Windows 2 1_2 _ 5
+    100210: Windows 2 1_2 _ 5 1
+    100212: Windows 2 1_2 _ 5 2
+    100214: Windows 2 1_2 _ 5 3
+    100216: Windows 2 1_2 _ 5 4
+    100218: Windows 2 1_2 _ 5 5
+    100220: Windows 2 1_2 _ 5 6
+    100222: Windows 2 1_2 _ 5 7
+    100224: Windows 2 1_2 _ 5#1
+    100226: Windows 2 1_2 _ 5#1 1
+    400000: 1st floor stairs 45 degrees
+    400002: 2nd floor stairs 45 DEGREES
+    400004: boxsash.dxf
+    400006: boxsash.dxf 1
+    400008: boxsash.dxf 2
+    400010: boxsash.dxf 3
+    400012: boxsash.dxf 4
+    400014: boxsash.dxf 5
+    400016: boxsash.dxf 6
+    400018: boxsash.dxf 7
+    400020: boxsash.dxf#1
+    400022: boxsash.dxf#1 1
+    400024: dollhouse primed (open)
+    400026: dollhouse shell
+    400028: dollhouse spindle
+    400030: dollhouse spindle 1
+    400032: dollhouse spindle 10
+    400034: dollhouse spindle 11
+    400036: dollhouse spindle 12
+    400038: dollhouse spindle 13
+    400040: dollhouse spindle 14
+    400042: dollhouse spindle 15
+    400044: dollhouse spindle 16
+    400046: dollhouse spindle 17
+    400048: dollhouse spindle 18
+    400050: dollhouse spindle 19
+    400052: dollhouse spindle 2
+    400054: dollhouse spindle 20
+    400056: dollhouse spindle 21
+    400058: dollhouse spindle 22
+    400060: dollhouse spindle 23
+    400062: dollhouse spindle 3
+    400064: dollhouse spindle 4
+    400066: dollhouse spindle 5
+    400068: dollhouse spindle 6
+    400070: dollhouse spindle 7
+    400072: dollhouse spindle 8
+    400074: dollhouse spindle 9
+    400076: dollhousecreen door
+    400078: French door
+    400080: Group 100
+    400082: Group 112
+    400084: Group 113
+    400086: Group 115
+    400088: Group 154
+    400090: Group 156
+    400092: Group 158
+    400094: Group 160
+    400096: Group 162
+    400098: Group 164
+    400100: Group 166
+    400102: Group 168
+    400104: Group 170
+    400106: Group 172
+    400108: Group 174
+    400110: Group 176
+    400112: Group 178
+    400114: Group 180
+    400116: Group 182
+    400118: Group 184
+    400120: Group 186
+    400122: Group 188
+    400124: Group 190
+    400126: Group 192
+    400128: Group 194
+    400130: Group 196
+    400132: Group 198
+    400134: Group 200
+    400136: Group 202
+    400138: Group 204
+    400140: Group 30
+    400142: Group 37
+    400144: Group 55
+    400146: Group 57
+    400148: Group 59
+    400150: Group 60
+    400152: Group 62
+    400154: Group 78
+    400156: Group 79
+    400158: Group 81
+    400160: Group 97
+    400162: Group 98
+    400164: Group#14
+    400166: Group#14 1
+    400168: intdoor2.dxf
+    400170: left front 2
+    400172: Newel Post 1
+    400174: Newel Post 1 1
+    400176: Newel Post 1 2
+    400178: Newel Post 1 3
+    400180: Newel Post 1 4
+    400182: Newel Post 1 5
+    400184: Newel Post 1#1
+    400186: Newel Post 1#1 1
+    400188: right dormer 2
+    400190: Right Front
+    400192: right front added windoes
+    400194: ROOF BOTH DORMERS
+    400196: roof front
+    400198: simple dormer window
+    400200: simple dormer window 1
+    400202: //RootNode
+    400204: Small dormer
+    400206: small dormer w window
+    400208: Windows 2 1_2 _ 5
+    400210: Windows 2 1_2 _ 5 1
+    400212: Windows 2 1_2 _ 5 2
+    400214: Windows 2 1_2 _ 5 3
+    400216: Windows 2 1_2 _ 5 4
+    400218: Windows 2 1_2 _ 5 5
+    400220: Windows 2 1_2 _ 5 6
+    400222: Windows 2 1_2 _ 5 7
+    400224: Windows 2 1_2 _ 5#1
+    400226: Windows 2 1_2 _ 5#1 1
+    2300000: 1st floor stairs 45 degrees
+    2300002: 2nd floor stairs 45 DEGREES
+    2300004: boxsash.dxf
+    2300006: boxsash.dxf 1
+    2300008: boxsash.dxf 2
+    2300010: boxsash.dxf 3
+    2300012: boxsash.dxf 4
+    2300014: boxsash.dxf 5
+    2300016: boxsash.dxf 6
+    2300018: boxsash.dxf 7
+    2300020: boxsash.dxf#1
+    2300022: boxsash.dxf#1 1
+    2300024: dollhouse shell
+    2300026: dollhouse spindle
+    2300028: dollhouse spindle 1
+    2300030: dollhouse spindle 10
+    2300032: dollhouse spindle 11
+    2300034: dollhouse spindle 12
+    2300036: dollhouse spindle 13
+    2300038: dollhouse spindle 14
+    2300040: dollhouse spindle 15
+    2300042: dollhouse spindle 16
+    2300044: dollhouse spindle 17
+    2300046: dollhouse spindle 18
+    2300048: dollhouse spindle 19
+    2300050: dollhouse spindle 2
+    2300052: dollhouse spindle 20
+    2300054: dollhouse spindle 21
+    2300056: dollhouse spindle 22
+    2300058: dollhouse spindle 23
+    2300060: dollhouse spindle 3
+    2300062: dollhouse spindle 4
+    2300064: dollhouse spindle 5
+    2300066: dollhouse spindle 6
+    2300068: dollhouse spindle 7
+    2300070: dollhouse spindle 8
+    2300072: dollhouse spindle 9
+    2300074: dollhousecreen door
+    2300076: Group 100
+    2300078: Group 113
+    2300080: Group 115
+    2300082: Group 154
+    2300084: Group 156
+    2300086: Group 158
+    2300088: Group 160
+    2300090: Group 162
+    2300092: Group 164
+    2300094: Group 166
+    2300096: Group 168
+    2300098: Group 170
+    2300100: Group 172
+    2300102: Group 174
+    2300104: Group 176
+    2300106: Group 178
+    2300108: Group 180
+    2300110: Group 182
+    2300112: Group 184
+    2300114: Group 186
+    2300116: Group 188
+    2300118: Group 190
+    2300120: Group 192
+    2300122: Group 194
+    2300124: Group 196
+    2300126: Group 198
+    2300128: Group 200
+    2300130: Group 202
+    2300132: Group 204
+    2300134: Group 30
+    2300136: Group 37
+    2300138: Group 55
+    2300140: Group 57
+    2300142: Group 60
+    2300144: Group 62
+    2300146: Group 79
+    2300148: Group 81
+    2300150: Group 98
+    2300152: Group#14
+    2300154: Group#14 1
+    2300156: intdoor2.dxf
+    2300158: left front 2
+    2300160: Newel Post 1
+    2300162: Newel Post 1 1
+    2300164: Newel Post 1 2
+    2300166: Newel Post 1 3
+    2300168: Newel Post 1 4
+    2300170: Newel Post 1 5
+    2300172: Newel Post 1#1
+    2300174: Newel Post 1#1 1
+    2300176: right dormer 2
+    2300178: Right Front
+    2300180: roof front
+    2300182: Small dormer
+    3300000: 1st floor stairs 45 degrees
+    3300002: 2nd floor stairs 45 DEGREES
+    3300004: boxsash.dxf
+    3300006: boxsash.dxf 1
+    3300008: boxsash.dxf 2
+    3300010: boxsash.dxf 3
+    3300012: boxsash.dxf 4
+    3300014: boxsash.dxf 5
+    3300016: boxsash.dxf 6
+    3300018: boxsash.dxf 7
+    3300020: boxsash.dxf#1
+    3300022: boxsash.dxf#1 1
+    3300024: dollhouse shell
+    3300026: dollhouse spindle
+    3300028: dollhouse spindle 1
+    3300030: dollhouse spindle 10
+    3300032: dollhouse spindle 11
+    3300034: dollhouse spindle 12
+    3300036: dollhouse spindle 13
+    3300038: dollhouse spindle 14
+    3300040: dollhouse spindle 15
+    3300042: dollhouse spindle 16
+    3300044: dollhouse spindle 17
+    3300046: dollhouse spindle 18
+    3300048: dollhouse spindle 19
+    3300050: dollhouse spindle 2
+    3300052: dollhouse spindle 20
+    3300054: dollhouse spindle 21
+    3300056: dollhouse spindle 22
+    3300058: dollhouse spindle 23
+    3300060: dollhouse spindle 3
+    3300062: dollhouse spindle 4
+    3300064: dollhouse spindle 5
+    3300066: dollhouse spindle 6
+    3300068: dollhouse spindle 7
+    3300070: dollhouse spindle 8
+    3300072: dollhouse spindle 9
+    3300074: dollhousecreen door
+    3300076: Group 100
+    3300078: Group 113
+    3300080: Group 115
+    3300082: Group 154
+    3300084: Group 156
+    3300086: Group 158
+    3300088: Group 160
+    3300090: Group 162
+    3300092: Group 164
+    3300094: Group 166
+    3300096: Group 168
+    3300098: Group 170
+    3300100: Group 172
+    3300102: Group 174
+    3300104: Group 176
+    3300106: Group 178
+    3300108: Group 180
+    3300110: Group 182
+    3300112: Group 184
+    3300114: Group 186
+    3300116: Group 188
+    3300118: Group 190
+    3300120: Group 192
+    3300122: Group 194
+    3300124: Group 196
+    3300126: Group 198
+    3300128: Group 200
+    3300130: Group 202
+    3300132: Group 204
+    3300134: Group 30
+    3300136: Group 37
+    3300138: Group 55
+    3300140: Group 57
+    3300142: Group 60
+    3300144: Group 62
+    3300146: Group 79
+    3300148: Group 81
+    3300150: Group 98
+    3300152: Group#14
+    3300154: Group#14 1
+    3300156: intdoor2.dxf
+    3300158: left front 2
+    3300160: Newel Post 1
+    3300162: Newel Post 1 1
+    3300164: Newel Post 1 2
+    3300166: Newel Post 1 3
+    3300168: Newel Post 1 4
+    3300170: Newel Post 1 5
+    3300172: Newel Post 1#1
+    3300174: Newel Post 1#1 1
+    3300176: right dormer 2
+    3300178: Right Front
+    3300180: roof front
+    3300182: Small dormer
+    4300000: Mesh Right Front
+    4300002: Mesh boxsash.dxf
+    4300004: Mesh roof front
+    4300006: Mesh Small dormer
+    4300008: Mesh Group 30
+    4300010: Mesh Group#14
+    4300012: Mesh right dormer 2
+    4300014: Mesh dollhouse shell
+    4300016: Mesh 1st floor stairs 45 degrees
+    4300018: Mesh 2nd floor stairs 45 DEGREES
+    4300020: Mesh left front 2
+    4300022: Mesh Group 55
+    4300024: Mesh Group 57
+    4300026: Mesh Group 60
+    4300028: Mesh Group 62
+    4300030: Mesh dollhouse spindle
+    4300032: Mesh Group 98
+    4300034: Mesh Group 100
+    4300036: Mesh Newel Post 1#1
+    4300038: Mesh Newel Post 1
+    4300040: Mesh boxsash.dxf#1
+    4300042: Mesh intdoor2.dxf
+    4300044: Mesh dollhousecreen door
+    4300046: Mesh Group 154
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

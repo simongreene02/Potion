@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test.Plugins", "Potion Dollhouse Test.Plugins.csproj", "{A9109450-9FEA-3301-42A8-52884C4C201D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test", "Potion Dollhouse Test.csproj", "{ABB2F5EC-1C64-4CF2-1870-B289A21D0BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion Dollhouse Test.Editor", "Potion Dollhouse Test.Editor.csproj", "{C428CCDE-13B9-C83D-6086-BECE6C569177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9109450-9FEA-3301-42A8-52884C4C201D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9109450-9FEA-3301-42A8-52884C4C201D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9109450-9FEA-3301-42A8-52884C4C201D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9109450-9FEA-3301-42A8-52884C4C201D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB2F5EC-1C64-4CF2-1870-B289A21D0BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB2F5EC-1C64-4CF2-1870-B289A21D0BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB2F5EC-1C64-4CF2-1870-B289A21D0BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB2F5EC-1C64-4CF2-1870-B289A21D0BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C428CCDE-13B9-C83D-6086-BECE6C569177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C428CCDE-13B9-C83D-6086-BECE6C569177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C428CCDE-13B9-C83D-6086-BECE6C569177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C428CCDE-13B9-C83D-6086-BECE6C569177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

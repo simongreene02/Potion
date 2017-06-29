@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: fad2b500f566c474dbc6fec8f9df2484
+timeCreated: 1470702412
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 1
+  mergeCoplanarFaces: 1
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 7ce28a88d76d3965950e790f11dcab79
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -5.9142256, y: 70.183914, z: -55.89392}
+      lookAt: {x: -3.850822, y: 52.42294, z: -34.5859}
+      up: {x: 0.061543643, y: 0.7696121, z: 0.6355389}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    100002: //RootNode
+    100004: segment
+    100006: segment 1
+    100008: segment 10
+    100010: segment 11
+    100012: segment 12
+    100014: segment 13
+    100016: segment 14
+    100018: segment 15
+    100020: segment 16
+    100022: segment 17
+    100024: segment 18
+    100026: segment 19
+    100028: segment 2
+    100030: segment 20
+    100032: segment 21
+    100034: segment 22
+    100036: segment 23
+    100038: segment 24
+    100040: segment 25
+    100042: segment 26
+    100044: segment 27
+    100046: segment 28
+    100048: segment 29
+    100050: segment 3
+    100052: segment 30
+    100054: segment 31
+    100056: segment 32
+    100058: segment 33
+    100060: segment 34
+    100062: segment 35
+    100064: segment 36
+    100066: segment 37
+    100068: segment 38
+    100070: segment 39
+    100072: segment 4
+    100074: segment 40
+    100076: segment 41
+    100078: segment 42
+    100080: segment 43
+    100082: segment 44
+    100084: segment 45
+    100086: segment 46
+    100088: segment 47
+    100090: segment 48
+    100092: segment 49
+    100094: segment 5
+    100096: segment 50
+    100098: segment 51
+    100100: segment 52
+    100102: segment 53
+    100104: segment 54
+    100106: segment 55
+    100108: segment 56
+    100110: segment 57
+    100112: segment 58
+    100114: segment 59
+    100116: segment 6
+    100118: segment 60
+    100120: segment 61
+    100122: segment 62
+    100124: segment 63
+    100126: segment 64
+    100128: segment 65
+    100130: segment 66
+    100132: segment 67
+    100134: segment 68
+    100136: segment 69
+    100138: segment 7
+    100140: segment 70
+    100142: segment 71
+    100144: segment 72
+    100146: segment 73
+    100148: segment 74
+    100150: segment 75
+    100152: segment 76
+    100154: segment 77
+    100156: segment 78
+    100158: segment 79
+    100160: segment 8
+    100162: segment 80
+    100164: segment 81
+    100166: segment 82
+    100168: segment 83
+    100170: segment 84
+    100172: segment 85
+    100174: segment 86
+    100176: segment 87
+    100178: segment 88
+    100180: segment 89
+    100182: segment 9
+    100184: segment 90
+    100186: segment 91
+    100188: segment 92
+    100190: segment 93
+    100192: segment 94
+    100194: segment 95
+    400000: _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    400002: //RootNode
+    400004: segment
+    400006: segment 1
+    400008: segment 10
+    400010: segment 11
+    400012: segment 12
+    400014: segment 13
+    400016: segment 14
+    400018: segment 15
+    400020: segment 16
+    400022: segment 17
+    400024: segment 18
+    400026: segment 19
+    400028: segment 2
+    400030: segment 20
+    400032: segment 21
+    400034: segment 22
+    400036: segment 23
+    400038: segment 24
+    400040: segment 25
+    400042: segment 26
+    400044: segment 27
+    400046: segment 28
+    400048: segment 29
+    400050: segment 3
+    400052: segment 30
+    400054: segment 31
+    400056: segment 32
+    400058: segment 33
+    400060: segment 34
+    400062: segment 35
+    400064: segment 36
+    400066: segment 37
+    400068: segment 38
+    400070: segment 39
+    400072: segment 4
+    400074: segment 40
+    400076: segment 41
+    400078: segment 42
+    400080: segment 43
+    400082: segment 44
+    400084: segment 45
+    400086: segment 46
+    400088: segment 47
+    400090: segment 48
+    400092: segment 49
+    400094: segment 5
+    400096: segment 50
+    400098: segment 51
+    400100: segment 52
+    400102: segment 53
+    400104: segment 54
+    400106: segment 55
+    400108: segment 56
+    400110: segment 57
+    400112: segment 58
+    400114: segment 59
+    400116: segment 6
+    400118: segment 60
+    400120: segment 61
+    400122: segment 62
+    400124: segment 63
+    400126: segment 64
+    400128: segment 65
+    400130: segment 66
+    400132: segment 67
+    400134: segment 68
+    400136: segment 69
+    400138: segment 7
+    400140: segment 70
+    400142: segment 71
+    400144: segment 72
+    400146: segment 73
+    400148: segment 74
+    400150: segment 75
+    400152: segment 76
+    400154: segment 77
+    400156: segment 78
+    400158: segment 79
+    400160: segment 8
+    400162: segment 80
+    400164: segment 81
+    400166: segment 82
+    400168: segment 83
+    400170: segment 84
+    400172: segment 85
+    400174: segment 86
+    400176: segment 87
+    400178: segment 88
+    400180: segment 89
+    400182: segment 9
+    400184: segment 90
+    400186: segment 91
+    400188: segment 92
+    400190: segment 93
+    400192: segment 94
+    400194: segment 95
+    2300000: _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    2300002: //RootNode
+    2300004: segment
+    2300006: segment 1
+    2300008: segment 10
+    2300010: segment 11
+    2300012: segment 12
+    2300014: segment 13
+    2300016: segment 14
+    2300018: segment 15
+    2300020: segment 16
+    2300022: segment 17
+    2300024: segment 18
+    2300026: segment 19
+    2300028: segment 2
+    2300030: segment 20
+    2300032: segment 21
+    2300034: segment 22
+    2300036: segment 23
+    2300038: segment 24
+    2300040: segment 25
+    2300042: segment 26
+    2300044: segment 27
+    2300046: segment 28
+    2300048: segment 29
+    2300050: segment 3
+    2300052: segment 30
+    2300054: segment 31
+    2300056: segment 32
+    2300058: segment 33
+    2300060: segment 34
+    2300062: segment 35
+    2300064: segment 36
+    2300066: segment 37
+    2300068: segment 38
+    2300070: segment 39
+    2300072: segment 4
+    2300074: segment 40
+    2300076: segment 41
+    2300078: segment 42
+    2300080: segment 43
+    2300082: segment 44
+    2300084: segment 45
+    2300086: segment 46
+    2300088: segment 47
+    2300090: segment 48
+    2300092: segment 49
+    2300094: segment 5
+    2300096: segment 50
+    2300098: segment 51
+    2300100: segment 52
+    2300102: segment 53
+    2300104: segment 54
+    2300106: segment 55
+    2300108: segment 56
+    2300110: segment 57
+    2300112: segment 58
+    2300114: segment 59
+    2300116: segment 6
+    2300118: segment 60
+    2300120: segment 61
+    2300122: segment 62
+    2300124: segment 63
+    2300126: segment 64
+    2300128: segment 65
+    2300130: segment 66
+    2300132: segment 67
+    2300134: segment 68
+    2300136: segment 69
+    2300138: segment 7
+    2300140: segment 70
+    2300142: segment 71
+    2300144: segment 72
+    2300146: segment 73
+    2300148: segment 74
+    2300150: segment 75
+    2300152: segment 76
+    2300154: segment 77
+    2300156: segment 78
+    2300158: segment 79
+    2300160: segment 8
+    2300162: segment 80
+    2300164: segment 81
+    2300166: segment 82
+    2300168: segment 83
+    2300170: segment 84
+    2300172: segment 85
+    2300174: segment 86
+    2300176: segment 87
+    2300178: segment 88
+    2300180: segment 89
+    2300182: segment 9
+    2300184: segment 90
+    2300186: segment 91
+    2300188: segment 92
+    2300190: segment 93
+    2300192: segment 94
+    2300194: segment 95
+    3300000: _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    3300002: //RootNode
+    3300004: segment
+    3300006: segment 1
+    3300008: segment 10
+    3300010: segment 11
+    3300012: segment 12
+    3300014: segment 13
+    3300016: segment 14
+    3300018: segment 15
+    3300020: segment 16
+    3300022: segment 17
+    3300024: segment 18
+    3300026: segment 19
+    3300028: segment 2
+    3300030: segment 20
+    3300032: segment 21
+    3300034: segment 22
+    3300036: segment 23
+    3300038: segment 24
+    3300040: segment 25
+    3300042: segment 26
+    3300044: segment 27
+    3300046: segment 28
+    3300048: segment 29
+    3300050: segment 3
+    3300052: segment 30
+    3300054: segment 31
+    3300056: segment 32
+    3300058: segment 33
+    3300060: segment 34
+    3300062: segment 35
+    3300064: segment 36
+    3300066: segment 37
+    3300068: segment 38
+    3300070: segment 39
+    3300072: segment 4
+    3300074: segment 40
+    3300076: segment 41
+    3300078: segment 42
+    3300080: segment 43
+    3300082: segment 44
+    3300084: segment 45
+    3300086: segment 46
+    3300088: segment 47
+    3300090: segment 48
+    3300092: segment 49
+    3300094: segment 5
+    3300096: segment 50
+    3300098: segment 51
+    3300100: segment 52
+    3300102: segment 53
+    3300104: segment 54
+    3300106: segment 55
+    3300108: segment 56
+    3300110: segment 57
+    3300112: segment 58
+    3300114: segment 59
+    3300116: segment 6
+    3300118: segment 60
+    3300120: segment 61
+    3300122: segment 62
+    3300124: segment 63
+    3300126: segment 64
+    3300128: segment 65
+    3300130: segment 66
+    3300132: segment 67
+    3300134: segment 68
+    3300136: segment 69
+    3300138: segment 7
+    3300140: segment 70
+    3300142: segment 71
+    3300144: segment 72
+    3300146: segment 73
+    3300148: segment 74
+    3300150: segment 75
+    3300152: segment 76
+    3300154: segment 77
+    3300156: segment 78
+    3300158: segment 79
+    3300160: segment 8
+    3300162: segment 80
+    3300164: segment 81
+    3300166: segment 82
+    3300168: segment 83
+    3300170: segment 84
+    3300172: segment 85
+    3300174: segment 86
+    3300176: segment 87
+    3300178: segment 88
+    3300180: segment 89
+    3300182: segment 9
+    3300184: segment 90
+    3300186: segment 91
+    3300188: segment 92
+    3300190: segment 93
+    3300192: segment 94
+    3300194: segment 95
+    4300000: Mesh RoundDollhouse05
+    4300002: Mesh _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    4300004: Mesh segment
+    6400000: _Spiral Ramp_; filename_=utf-8''Spiral+Ramp
+    6400002: //RootNode
+    6400004: segment
+    6400006: segment 1
+    6400008: segment 10
+    6400010: segment 11
+    6400012: segment 12
+    6400014: segment 13
+    6400016: segment 14
+    6400018: segment 15
+    6400020: segment 16
+    6400022: segment 17
+    6400024: segment 18
+    6400026: segment 19
+    6400028: segment 2
+    6400030: segment 20
+    6400032: segment 21
+    6400034: segment 22
+    6400036: segment 23
+    6400038: segment 24
+    6400040: segment 25
+    6400042: segment 26
+    6400044: segment 27
+    6400046: segment 28
+    6400048: segment 29
+    6400050: segment 3
+    6400052: segment 30
+    6400054: segment 31
+    6400056: segment 32
+    6400058: segment 33
+    6400060: segment 34
+    6400062: segment 35
+    6400064: segment 36
+    6400066: segment 37
+    6400068: segment 38
+    6400070: segment 39
+    6400072: segment 4
+    6400074: segment 40
+    6400076: segment 41
+    6400078: segment 42
+    6400080: segment 43
+    6400082: segment 44
+    6400084: segment 45
+    6400086: segment 46
+    6400088: segment 47
+    6400090: segment 48
+    6400092: segment 49
+    6400094: segment 5
+    6400096: segment 50
+    6400098: segment 51
+    6400100: segment 52
+    6400102: segment 53
+    6400104: segment 54
+    6400106: segment 55
+    6400108: segment 56
+    6400110: segment 57
+    6400112: segment 58
+    6400114: segment 59
+    6400116: segment 6
+    6400118: segment 60
+    6400120: segment 61
+    6400122: segment 62
+    6400124: segment 63
+    6400126: segment 64
+    6400128: segment 65
+    6400130: segment 66
+    6400132: segment 67
+    6400134: segment 68
+    6400136: segment 69
+    6400138: segment 7
+    6400140: segment 70
+    6400142: segment 71
+    6400144: segment 72
+    6400146: segment 73
+    6400148: segment 74
+    6400150: segment 75
+    6400152: segment 76
+    6400154: segment 77
+    6400156: segment 78
+    6400158: segment 79
+    6400160: segment 8
+    6400162: segment 80
+    6400164: segment 81
+    6400166: segment 82
+    6400168: segment 83
+    6400170: segment 84
+    6400172: segment 85
+    6400174: segment 86
+    6400176: segment 87
+    6400178: segment 88
+    6400180: segment 89
+    6400182: segment 9
+    6400184: segment 90
+    6400186: segment 91
+    6400188: segment 92
+    6400190: segment 93
+    6400192: segment 94
+    6400194: segment 95
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

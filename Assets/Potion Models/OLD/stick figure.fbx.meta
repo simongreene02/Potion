@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: ca56ed4ab23fa16478eea0c2472ab996
+timeCreated: 1468289483
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: group3
+    100006: group4
+    100008: group5
+    100010: pasted__group
+    100012: pasted__group3
+    100014: pasted__pasted__group
+    100016: pasted__pasted__pasted__pSphere17
+    100018: pasted__pasted__pSphere17
+    100020: pasted__pSphere16
+    100022: pasted__pSphere17
+    100024: pasted__pSphere17 1
+    100026: pasted__pSphere17 2
+    100028: pasted__pSphere18
+    100030: pasted__pSphere19
+    100032: pSphere10
+    100034: pSphere16
+    100036: pSphere17
+    100038: pSphere18
+    100040: pSphere19
+    100042: pSphere21
+    100044: pSphere23
+    100046: pSphere24
+    100048: pSphere25
+    100050: pSphere26
+    100052: pSphere6
+    100054: pSphere7
+    100056: pSphere9
+    100058: //RootNode
+    400000: group
+    400002: group1
+    400004: group3
+    400006: group4
+    400008: group5
+    400010: pasted__group
+    400012: pasted__group3
+    400014: pasted__pasted__group
+    400016: pasted__pasted__pasted__pSphere17
+    400018: pasted__pasted__pSphere17
+    400020: pasted__pSphere16
+    400022: pasted__pSphere17
+    400024: pasted__pSphere17 1
+    400026: pasted__pSphere17 2
+    400028: pasted__pSphere18
+    400030: pasted__pSphere19
+    400032: pSphere10
+    400034: pSphere16
+    400036: pSphere17
+    400038: pSphere18
+    400040: pSphere19
+    400042: pSphere21
+    400044: pSphere23
+    400046: pSphere24
+    400048: pSphere25
+    400050: pSphere26
+    400052: pSphere6
+    400054: pSphere7
+    400056: pSphere9
+    400058: //RootNode
+    2300000: pasted__pasted__pasted__pSphere17
+    2300002: pasted__pasted__pSphere17
+    2300004: pasted__pSphere16
+    2300006: pasted__pSphere17
+    2300008: pasted__pSphere17 1
+    2300010: pasted__pSphere17 2
+    2300012: pasted__pSphere18
+    2300014: pasted__pSphere19
+    2300016: pSphere10
+    2300018: pSphere16
+    2300020: pSphere17
+    2300022: pSphere18
+    2300024: pSphere19
+    2300026: pSphere21
+    2300028: pSphere23
+    2300030: pSphere24
+    2300032: pSphere25
+    2300034: pSphere26
+    2300036: pSphere6
+    2300038: pSphere7
+    2300040: pSphere9
+    3300000: pasted__pasted__pasted__pSphere17
+    3300002: pasted__pasted__pSphere17
+    3300004: pasted__pSphere16
+    3300006: pasted__pSphere17
+    3300008: pasted__pSphere17 1
+    3300010: pasted__pSphere17 2
+    3300012: pasted__pSphere18
+    3300014: pasted__pSphere19
+    3300016: pSphere10
+    3300018: pSphere16
+    3300020: pSphere17
+    3300022: pSphere18
+    3300024: pSphere19
+    3300026: pSphere21
+    3300028: pSphere23
+    3300030: pSphere24
+    3300032: pSphere25
+    3300034: pSphere26
+    3300036: pSphere6
+    3300038: pSphere7
+    3300040: pSphere9
+    4300000: pSphere6
+    4300002: pSphere7
+    4300004: pSphere9
+    4300006: pSphere10
+    4300008: pSphere16
+    4300010: pSphere17
+    4300012: pSphere18
+    4300014: pSphere19
+    4300016: pSphere21
+    4300018: pSphere23
+    4300020: pSphere24
+    4300022: pasted__pSphere16
+    4300024: pasted__pSphere17
+    4300026: pasted__pSphere17
+    4300028: pSphere25
+    4300030: pSphere26
+    4300032: pasted__pasted__pSphere17
+    4300034: pasted__pasted__pasted__pSphere17
+    4300036: pasted__pSphere17
+    4300038: pasted__pSphere18
+    4300040: pasted__pSphere19
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
