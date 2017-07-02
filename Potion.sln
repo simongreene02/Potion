@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion.Plugins", "Potion.Plugins.csproj", "{F471922C-FCAC-A6DB-A69E-83A2663F000A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion", "Potion.csproj", "{42F89334-28E9-D294-CE56-0D9C4789F5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Potion.Editor", "Potion.Editor.csproj", "{1B515D0A-4D01-2AEB-4D12-617C1B44C175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F471922C-FCAC-A6DB-A69E-83A2663F000A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F471922C-FCAC-A6DB-A69E-83A2663F000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F471922C-FCAC-A6DB-A69E-83A2663F000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F471922C-FCAC-A6DB-A69E-83A2663F000A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F89334-28E9-D294-CE56-0D9C4789F5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F89334-28E9-D294-CE56-0D9C4789F5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F89334-28E9-D294-CE56-0D9C4789F5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F89334-28E9-D294-CE56-0D9C4789F5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B515D0A-4D01-2AEB-4D12-617C1B44C175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B515D0A-4D01-2AEB-4D12-617C1B44C175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B515D0A-4D01-2AEB-4D12-617C1B44C175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B515D0A-4D01-2AEB-4D12-617C1B44C175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
