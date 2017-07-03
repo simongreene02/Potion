@@ -6,8 +6,6 @@ public class DrinkHandler : MonoBehaviour {
 
 	private float timeSinceClicked;
 	private int timesClicked;
-	private Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-	private RaycastHit hit;
 
 	// Use this for initialization
 	void Start () {
@@ -17,18 +15,18 @@ public class DrinkHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		RaycastHit hit;
 		RenderSettings.fogDensity = timesClicked * 0.1f;
 		timeSinceClicked += Time.deltaTime;
-		print (timeSinceClicked);
-		if(Physics.Raycast (ray, out hit))
-		{
-			if(hit.transform.name == "Player")
-			{
-				Debug.Log ("This is a Player");
+		if (Physics.Raycast (ray, out hit)) {
+			if (hit.transform.equals(this.gameObject.transform)) {
+				print ("This is a Player");
+			} else {
+				print ("This isn't a Player");                
 			}
-			else {
-				Debug.Log ("This isn't a Player");                
-			}
+		} else {
+			print ("nope");
 		}
 	}
 
