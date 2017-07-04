@@ -17,20 +17,22 @@ public class DrinkHandler : MonoBehaviour {
 	void Update () {
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
+		Transform transform;
 		RenderSettings.fogDensity = timesClicked * 0.1f;
 		timeSinceClicked += Time.deltaTime;
 		if (Physics.Raycast (ray, out hit)) {
-			if (hit.transform.equals(this.gameObject.transform)) {
-				print ("This is a Player");
+			if (hit.transform.position.x == this.gameObject.transform.position.x && hit.transform.position.y == this.gameObject.transform.position.y && hit.transform.position.z == this.gameObject.transform.position.z) {
+				//print ("This is a Player");
 			} else {
-				print ("This isn't a Player");                
+				//print (hit.transform.position.ToString() + " " + this.gameObject.transform.position.ToString());                
 			}
 		} else {
-			print ("nope");
+			//print ("nope");
 		}
 	}
 
-	void OnMouseDown () {
+	void OnMouseEnter () {
+		print ("This is a Player");
 		if (timeSinceClicked > 0.3f) {
 			timesClicked++;
 			timeSinceClicked = 0f;
