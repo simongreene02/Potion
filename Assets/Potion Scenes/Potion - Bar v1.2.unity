@@ -12753,9 +12753,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2112919790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b156e42f15bb54a9b26d711de9e0d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d43681ba9277484f9716010b353ef7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  childScripts: []
 --- !u!1 &2117215761 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100080, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}

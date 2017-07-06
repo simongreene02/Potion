@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Potion.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Potion Scripts\DrinkHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Potion Scripts\ClickHandler.cs">
     <Files>
-      <File FileName="Assets\Potion Scripts\DrinkHandler.cs" Line="13" Column="70" />
+      <File FileName="Assets\Potion Scripts\ClickHandler.cs" Line="9" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
