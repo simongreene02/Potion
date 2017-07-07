@@ -12745,7 +12745,7 @@ MeshCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 191034, guid: 696b22cd205d810448ccf377ae7a6abf, type: 2}
   m_PrefabInternal: {fileID: 207052078}
---- !u!114 &2112919792
+--- !u!114 &2112919791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -12757,6 +12757,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childScripts: []
+--- !u!114 &2112919792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112919790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5b514223f02964c9e0b7aefe0f62cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117215761 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100080, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}

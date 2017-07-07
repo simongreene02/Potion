@@ -87,7 +87,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Potion Scripts\ActivateOnClickScript.cs" />
     <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
+    <Compile Include="Assets\Potion Scripts\DrinkOrderScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Potion Scripts\Materials\relfective_transparent.shader" />

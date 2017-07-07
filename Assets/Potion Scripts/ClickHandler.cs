@@ -5,6 +5,7 @@ using UnityEngine;
 public class ClickHandler : MonoBehaviour {
 
 	private bool isMouseOn;
+	public ActivateOnClickScript clickScript;
 	[HideInInspector]
 	public ClickHandler[] childScripts;
 
@@ -12,14 +13,20 @@ public class ClickHandler : MonoBehaviour {
 	void Start () {
 		childScripts = new ClickHandler[this.gameObject.transform.childCount];
 		for (int i = 0; i < childScripts.Length; i++) {
-			childScripts [i] = this.gameObject.transform.GetChild (i).gameObject.AddComponent<ClickHandler> () as ClickHandler;
+			if (this.gameObject.transform.GetChild (i).gameObject.GetComponent<ClickHandler> () == null) {
+				childScripts [i] = this.gameObject.transform.GetChild (i).gameObject.AddComponent<ClickHandler> () as ClickHandler;
+			} else {
+				childScripts [i] = this.gameObject.transform.GetChild (i).gameObject.GetComponent<ClickHandler> () as ClickHandler;
+			}
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (this.gameObject.transform.parent == null) {
-			print (IsMouseOn());
+		if (this.clickScript != null) {
+			if (Input.GetMouseButtonDown (0)) {
+				clickScript.OnBeingClicked ();
+			}
 		}
 	}
 
