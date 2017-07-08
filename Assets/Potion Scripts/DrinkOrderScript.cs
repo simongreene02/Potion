@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DrinkOrderScript : MonoBehaviour, ActivateOnClickScript {
+public class DrinkOrderScript : MonoBehaviour {
+
+	public DrinkScript drinkScript;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +17,6 @@ public class DrinkOrderScript : MonoBehaviour, ActivateOnClickScript {
 	}
 
 	public void OnBeingClicked() {
-		print ("Clicking sound");
+		drinkScript.OnActivate ();
 	}
 }
