@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class DrinkScript : MonoBehaviour {
 
-	public float state = 2; // 0 = gliding out, 1 = waiting to be drunk, 2 = waiting to be served
+	float state = 2; // 0 = gliding out, 1 = waiting to be drunk, 2 = waiting to be served
 	public Vector3 startPosition;
 	public Vector3 endPosition;
-	int drinksDrunk;
+	public int drinksDrunk;
 
 	// Use this for initialization
 	void Start () {
