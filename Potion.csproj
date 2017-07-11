@@ -91,6 +91,7 @@
     <Compile Include="Assets\Potion Scripts\ClickHandlerDrinkScript.cs" />
     <Compile Include="Assets\Potion Scripts\DrinkOrderScript.cs" />
     <Compile Include="Assets\Potion Scripts\DrinkScript.cs" />
+    <Compile Include="Assets\Potion Scripts\ShardHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Potion Scripts\ClickHandler.txt" />

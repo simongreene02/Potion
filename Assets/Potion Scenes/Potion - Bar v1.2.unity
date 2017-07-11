@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -3443,7 +3443,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -969849495
+  randomSeed: 910098207
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13612,7 +13612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5b514223f02964c9e0b7aefe0f62cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drinkScript: {fileID: 1082263121}
+  drinkScript: {fileID: 0}
 --- !u!4 &2112919793
 Transform:
   m_ObjectHideFlags: 0
