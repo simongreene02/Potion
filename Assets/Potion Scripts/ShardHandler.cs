@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShardHandler : MonoBehaviour {
 
 	public int drinkThreshold;
-	public static int necklaceAppearThreshold = 6;
+	public static int necklaceAppearThreshold = 7;
 	public DrinkScript drinkScript;
 
 	// Use this for initialization
