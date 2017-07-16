@@ -6,7 +6,6 @@ public class ShardHandler : MonoBehaviour {
 
 	public int drinkThreshold;
 	public static int necklaceAppearThreshold = 7;
-	public DrinkScript drinkScript;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +14,6 @@ public class ShardHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.GetComponent<MeshRenderer>().enabled = (drinkScript.drinksDrunk >= drinkThreshold && drinkScript.drinksDrunk < necklaceAppearThreshold);
+		this.gameObject.GetComponent<MeshRenderer>().enabled = (DrinkScript.drinksDrunk >= drinkThreshold && DrinkScript.drinksDrunk < necklaceAppearThreshold);
 	}
 }
