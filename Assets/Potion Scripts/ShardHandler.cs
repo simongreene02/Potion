@@ -5,7 +5,6 @@ using UnityEngine;
 public class ShardHandler : MonoBehaviour {
 
 	public int drinkThreshold;
-	public static int necklaceAppearThreshold = 7;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +13,6 @@ public class ShardHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.GetComponent<MeshRenderer>().enabled = (DrinkScript.drinksDrunk >= drinkThreshold && DrinkScript.drinksDrunk < necklaceAppearThreshold);
+		this.gameObject.GetComponent<MeshRenderer>().enabled = (DrinkScript.drinksDrunk >= drinkThreshold);
 	}
 }

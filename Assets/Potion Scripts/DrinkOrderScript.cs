@@ -5,6 +5,8 @@ using UnityEngine;
 public class DrinkOrderScript : MonoBehaviour {
 
 	public DrinkScript drinkScript;
+	public NecklaceScript necklaceScript;
+	public readonly int maxDrinkThreshold = 6;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +19,13 @@ public class DrinkOrderScript : MonoBehaviour {
 	}
 
 	public void OnBeingClicked() {
-		drinkScript.OnActivate ();
+		if (DrinkScript.drinksDrunk < maxDrinkThreshold) {
+			drinkScript.OnActivate ();
+		} else {
+			necklaceScript.AttachNecklaceToPlayer ();
+			DrinkScript.drinksDrunk = 0;
+			this.enabled = false;
+		}
 	}
+		
 }

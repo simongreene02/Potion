@@ -92,6 +92,7 @@
     <Compile Include="Assets\Potion Scripts\DrinkHandlerScript.cs" />
     <Compile Include="Assets\Potion Scripts\DrinkOrderScript.cs" />
     <Compile Include="Assets\Potion Scripts\DrinkScript.cs" />
+    <Compile Include="Assets\Potion Scripts\NecklaceScript.cs" />
     <Compile Include="Assets\Potion Scripts\ShardHandler.cs" />
   </ItemGroup>
   <ItemGroup>

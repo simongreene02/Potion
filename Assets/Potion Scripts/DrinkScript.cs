@@ -25,7 +25,7 @@ public class DrinkScript : MonoBehaviour {
 		if (state > 1 && state != 2) {
 			state = 1;
 		}
-		this.gameObject.GetComponent<MeshRenderer>().enabled = (state != 2);
+		//this.gameObject.GetComponent<MeshRenderer>().enabled = (state != 2);
 	}
 
 	public void OnActivate () {
