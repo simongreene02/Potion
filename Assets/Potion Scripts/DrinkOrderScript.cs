@@ -22,8 +22,9 @@ public class DrinkOrderScript : MonoBehaviour {
 		if (DrinkScript.drinksDrunk < maxDrinkThreshold) {
 			drinkScript.OnActivate ();
 		} else {
-			necklaceScript.AttachNecklaceToPlayer ();
+			necklaceScript.BringNecklaceToTable();
 			DrinkScript.drinksDrunk = 0;
+			this.gameObject.GetComponent<ClickHandlerDrinkOrderScript> ().enabled = false;
 			this.enabled = false;
 		}
 	}

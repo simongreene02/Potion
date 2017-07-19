@@ -39,6 +39,7 @@ public class DrinkScript : MonoBehaviour {
 			state = 2;
 			drinksDrunk++;
 			print (drinksDrunk);
+			this.gameObject.transform.position = new Vector3 (0, 0, 0);
 		}
 	}
 
