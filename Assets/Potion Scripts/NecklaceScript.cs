@@ -29,8 +29,15 @@ public class NecklaceScript : MonoBehaviour {
 		print ("Collided");
 		if (state == 1 && other.gameObject.tag == "Player") {
 			state++;
-			this.transform.position = attachObject.transform.rotation * new Vector3 (0, 0, 1) + attachObject.transform.position;
-			this.transform.parent = attachObject.transform;
+			Vector3 attachObjectPosition = attachObject.transform.position;
+			Quaternion attachObjectRotation = attachObject.transform.rotation;
+			attachObject.transform.position = Vector3.zero;
+			attachObject.transform.rotation = Quaternion.identity;
+			this.gameObject.transform.position = Vector3.forward;
+			this.gameObject.transform.rotation = Quaternion.identity;
+			this.gameObject.transform.SetParent(attachObject.transform);
+			attachObject.transform.position = attachObjectPosition;
+			attachObject.transform.rotation = attachObjectRotation;
 			print (state);
 		}
 	}

@@ -6,7 +6,7 @@ public class DrinkOrderScript : MonoBehaviour {
 
 	public DrinkScript drinkScript;
 	public NecklaceScript necklaceScript;
-	public readonly int maxDrinkThreshold = 6;
+	public readonly int maxDrinkThreshold = 0;
 
 	// Use this for initialization
 	void Start () {
