@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 922
     height: 442
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -365,23 +365,23 @@ MonoBehaviour:
     height: 421
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34400000
-    m_LastClickedID: 16436
-    m_ExpandedIDs: e2fbffff00000000
+    m_SelectedIDs: 149affff
+    m_LastClickedID: -26092
+    m_ExpandedIDs: 7aa2ffff7ca2ffff54a6fffff4aaffffa4afffff16e6ffff7cf2ffff7cf6ffffe2fbffff00000000d2490100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FPSController
+      m_OriginalName: FPSController
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -23940
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -417,14 +417,14 @@ MonoBehaviour:
     width: 918
     height: 421
   m_SceneLighting: 1
-  lastFramingTime: 829.3596541789021
+  lastFramingTime: 168512.88627792592
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 259.83536, y: 1.4743888, z: 285.20206}
+    m_Target: {x: 261, y: 2.3, z: 279}
     speed: 2
-    m_Value: {x: 259.83536, y: 1.4743888, z: 285.20206}
+    m_Value: {x: 261, y: 2.3, z: 279}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,18 +447,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.1251985, y: 0.10989117, z: -0.013974129, w: -0.9859288}
+    m_Target: {x: -0.1251984, y: 0.10989108, z: -0.013974117, w: -0.985928}
     speed: 2
-    m_Value: {x: -0.1251985, y: 0.10989117, z: -0.013974129, w: -0.98592883}
+    m_Value: {x: -0.12519841, y: 0.10989109, z: -0.013974118, w: -0.98592806}
   m_Size:
-    m_Target: 8.578959
+    m_Target: 3.7770224
     speed: 2
-    m_Value: 8.578959
+    m_Value: 3.7770224
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.1251984, y: 0.10989108, z: -0.013974117, w: -0.985928}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -527,19 +527,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Potion Scripts
+    - Assets/Potion Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Potion Scripts
+  - Assets/Potion Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Simon\Documents\GitHub\Potion
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 341}
-    m_SelectedIDs: dc320000
-    m_LastClickedID: 13020
-    m_ExpandedIDs: 00000000662700002c290000502b0000802b0000482e0000dc320000923300002c370000443800007e3900007e3b0000883b0000bc3b00003a4a00003c4a00003e4a0000404a0000424a0000444a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 502b0000
+    m_LastClickedID: 11088
+    m_ExpandedIDs: 0000000066270000802b0000482e0000dc320000923300002c370000443800007e3900007e3b0000883b0000bc3b00003a4a00003c4a00003e4a0000404a0000424a0000444a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -6,7 +6,8 @@ public class NecklaceScript : MonoBehaviour {
 
 	private int state;
 	public Vector3 appearPosition;
-	public GameObject attachObject;
+	public GameObject player;
+	public GameObject point;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,10 @@ public class NecklaceScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (state == 2) {
+			this.gameObject.transform.position = point.transform.position;
+			this.gameObject.transform.rotation = point.transform.rotation;
+		}
 	}
 
 	public void BringNecklaceToTable() {
@@ -29,16 +34,19 @@ public class NecklaceScript : MonoBehaviour {
 		print ("Collided");
 		if (state == 1 && other.gameObject.tag == "Player") {
 			state++;
-			Vector3 attachObjectPosition = attachObject.transform.position;
-			Quaternion attachObjectRotation = attachObject.transform.rotation;
-			attachObject.transform.position = Vector3.zero;
-			attachObject.transform.rotation = Quaternion.identity;
+		}
+		/*
+			Vector3 playerPosition = player.transform.position;
+			Quaternion playerRotation = player.transform.rotation;
+			player.transform.position = Vector3.zero;
+			player.transform.rotation = Quaternion.identity;
 			this.gameObject.transform.position = Vector3.forward;
 			this.gameObject.transform.rotation = Quaternion.identity;
-			this.gameObject.transform.SetParent(attachObject.transform);
-			attachObject.transform.position = attachObjectPosition;
-			attachObject.transform.rotation = attachObjectRotation;
+			this.gameObject.transform.SetParent(player.transform);
+			player.transform.position = playerPosition;
+			player.transform.rotation = playerRotation;
 			print (state);
 		}
+		*/
 	}
 }

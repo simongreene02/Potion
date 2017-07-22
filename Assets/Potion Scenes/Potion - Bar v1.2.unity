@@ -872,7 +872,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appearPosition: {x: 256.033, y: 1.474, z: 280.212}
-  attachObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  player: {fileID: 877067045}
+  point: {fileID: 927999607}
 --- !u!65 &132555671
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7789,6 +7790,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a36bccb71ae252d459a33c2e45c161bd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &877067045 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 2085235012}
 --- !u!1 &886074277 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100114, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
@@ -8086,6 +8091,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe4f2abf7b9081d4ca24cfe4ec989a59, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &927999607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 927999608}
+  m_Layer: 0
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927999608
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927999607}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1398224126}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!1 &929819523
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,6 +10831,10 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1398224126 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 2085235012}
 --- !u!1001 &1404445379
 Prefab:
   m_ObjectHideFlags: 0
