@@ -31,22 +31,13 @@ public class NecklaceScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		print ("Collided");
+		print (other);
 		if (state == 1 && other.gameObject.tag == "Player") {
 			state++;
+		} else if (state == 2 && other.gameObject.tag == "LockObject") {
+			state++;
+			this.gameObject.transform.position = other.gameObject.transform.position;
+			this.gameObject.transform.rotation = other.gameObject.transform.rotation;
 		}
-		/*
-			Vector3 playerPosition = player.transform.position;
-			Quaternion playerRotation = player.transform.rotation;
-			player.transform.position = Vector3.zero;
-			player.transform.rotation = Quaternion.identity;
-			this.gameObject.transform.position = Vector3.forward;
-			this.gameObject.transform.rotation = Quaternion.identity;
-			this.gameObject.transform.SetParent(player.transform);
-			player.transform.position = playerPosition;
-			player.transform.rotation = playerRotation;
-			print (state);
-		}
-		*/
 	}
 }
