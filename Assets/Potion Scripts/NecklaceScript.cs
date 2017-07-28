@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class NecklaceScript : MonoBehaviour {
 
-	private int state;
+	[HideInInspector]
+	public int state;
 	public Vector3 appearPosition;
-	public GameObject player;
 	public GameObject point;
 
 	// Use this for initialization
@@ -31,13 +31,9 @@ public class NecklaceScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		print (other);
+		print (other.gameObject.tag);
 		if (state == 1 && other.gameObject.tag == "Player") {
 			state++;
-		} else if (state == 2 && other.gameObject.tag == "LockObject") {
-			state++;
-			this.gameObject.transform.position = other.gameObject.transform.position;
-			this.gameObject.transform.rotation = other.gameObject.transform.rotation;
 		}
 	}
 }
