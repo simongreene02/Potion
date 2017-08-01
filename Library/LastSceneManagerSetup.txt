@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Potion Scenes/Potion - Tree Start.unity
+- path: Assets/Potion Scenes/Potion - Garden v1.4.unity
   isLoaded: 1
   isActive: 1

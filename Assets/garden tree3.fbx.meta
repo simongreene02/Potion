@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: a51f27335f01bc045b8cf347ddb5c009
+timeCreated: 1501460751
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: nurbsToPoly1
+    100004: nurbsToPoly2
+    100006: nurbsToPoly3
+    100008: nurbsToPoly4
+    100010: polySurface10
+    100012: polySurface11
+    100014: polySurface12
+    100016: polySurface13
+    100018: polySurface14
+    100020: polySurface15
+    100022: polySurface16
+    100024: polySurface17
+    100026: polySurface19
+    100028: polySurface2
+    100030: polySurface20
+    100032: polySurface21
+    100034: polySurface22
+    100036: polySurface23
+    100038: polySurface24
+    100040: polySurface25
+    100042: polySurface26
+    100044: polySurface27
+    100046: polySurface28
+    100048: polySurface29
+    100050: polySurface3
+    100052: polySurface30
+    100054: polySurface32
+    100056: polySurface33
+    100058: polySurface34
+    100060: polySurface36
+    100062: polySurface4
+    100064: polySurface5
+    100066: polySurface6
+    100068: polySurface7
+    100070: polySurface8
+    100072: polySurface9
+    100074: revolvedSurface1
+    100076: revolvedSurface2
+    100078: revolvedSurface3
+    100080: revolvedSurface4
+    100082: revolvedSurface5
+    100084: transform1
+    100086: transform10
+    100088: transform11
+    100090: transform12
+    100092: transform13
+    100094: transform14
+    100096: transform15
+    100098: transform16
+    100100: transform17
+    100102: transform18
+    100104: transform19
+    100106: transform2
+    100108: transform20
+    100110: transform21
+    100112: transform22
+    100114: transform23
+    100116: transform24
+    100118: transform25
+    100120: transform26
+    100122: transform27
+    100124: transform28
+    100126: transform29
+    100128: transform3
+    100130: transform30
+    100132: transform31
+    100134: transform32
+    100136: transform33
+    100138: transform34
+    100140: transform35
+    100142: transform36
+    100144: transform37
+    100146: transform38
+    100148: transform4
+    100150: transform5
+    100152: transform6
+    100154: transform7
+    100156: transform8
+    100158: transform9
+    400000: //RootNode
+    400002: nurbsToPoly1
+    400004: nurbsToPoly2
+    400006: nurbsToPoly3
+    400008: nurbsToPoly4
+    400010: polySurface10
+    400012: polySurface11
+    400014: polySurface12
+    400016: polySurface13
+    400018: polySurface14
+    400020: polySurface15
+    400022: polySurface16
+    400024: polySurface17
+    400026: polySurface19
+    400028: polySurface2
+    400030: polySurface20
+    400032: polySurface21
+    400034: polySurface22
+    400036: polySurface23
+    400038: polySurface24
+    400040: polySurface25
+    400042: polySurface26
+    400044: polySurface27
+    400046: polySurface28
+    400048: polySurface29
+    400050: polySurface3
+    400052: polySurface30
+    400054: polySurface32
+    400056: polySurface33
+    400058: polySurface34
+    400060: polySurface36
+    400062: polySurface4
+    400064: polySurface5
+    400066: polySurface6
+    400068: polySurface7
+    400070: polySurface8
+    400072: polySurface9
+    400074: revolvedSurface1
+    400076: revolvedSurface2
+    400078: revolvedSurface3
+    400080: revolvedSurface4
+    400082: revolvedSurface5
+    400084: transform1
+    400086: transform10
+    400088: transform11
+    400090: transform12
+    400092: transform13
+    400094: transform14
+    400096: transform15
+    400098: transform16
+    400100: transform17
+    400102: transform18
+    400104: transform19
+    400106: transform2
+    400108: transform20
+    400110: transform21
+    400112: transform22
+    400114: transform23
+    400116: transform24
+    400118: transform25
+    400120: transform26
+    400122: transform27
+    400124: transform28
+    400126: transform29
+    400128: transform3
+    400130: transform30
+    400132: transform31
+    400134: transform32
+    400136: transform33
+    400138: transform34
+    400140: transform35
+    400142: transform36
+    400144: transform37
+    400146: transform38
+    400148: transform4
+    400150: transform5
+    400152: transform6
+    400154: transform7
+    400156: transform8
+    400158: transform9
+    2300000: nurbsToPoly4
+    2300002: revolvedSurface5
+    3300000: nurbsToPoly4
+    3300002: revolvedSurface5
+    4300000: revolvedSurface5
+    4300002: nurbsToPoly4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

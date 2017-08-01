@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: ce5ee9f43891a8547912841ad8e2f7fa
+timeCreated: 1501389032
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: grove_mirror:bottom
+    100002: grove_mirror:curve1
+    100004: grove_mirror:group
+    100006: grove_mirror:group1
+    100008: grove_mirror:group10
+    100010: grove_mirror:group11
+    100012: grove_mirror:group12
+    100014: grove_mirror:group13
+    100016: grove_mirror:group14
+    100018: grove_mirror:group2
+    100020: grove_mirror:group3
+    100022: grove_mirror:group4
+    100024: grove_mirror:group5
+    100026: grove_mirror:group6
+    100028: grove_mirror:group7
+    100030: grove_mirror:group8
+    100032: grove_mirror:group9
+    100034: grove_mirror:loftedSurface2
+    100036: grove_mirror:loftedSurface5
+    100038: grove_mirror:loftedSurface6
+    100040: grove_mirror:loftedSurface7
+    100042: grove_mirror:loftedSurface8
+    100044: grove_mirror:pasted__group
+    100046: grove_mirror:pasted__group1
+    100048: grove_mirror:pasted__group1 1
+    100050: grove_mirror:pasted__group10
+    100052: grove_mirror:pasted__group11
+    100054: grove_mirror:pasted__group13
+    100056: grove_mirror:pasted__group3
+    100058: grove_mirror:pasted__group5
+    100060: grove_mirror:pasted__group7
+    100062: grove_mirror:pasted__group7 1
+    100064: grove_mirror:pasted__group9
+    100066: grove_mirror:pasted__loftedSurface2
+    100068: grove_mirror:pasted__loftedSurface2 1
+    100070: grove_mirror:pasted__loftedSurface5
+    100072: grove_mirror:pasted__loftedSurface5 1
+    100074: grove_mirror:pasted__loftedSurface5 2
+    100076: grove_mirror:pasted__loftedSurface6
+    100078: grove_mirror:pasted__loftedSurface6 1
+    100080: grove_mirror:pasted__loftedSurface7
+    100082: grove_mirror:pasted__loftedSurface7 1
+    100084: grove_mirror:pasted__loftedSurface8
+    100086: grove_mirror:pasted__loftedSurface8 1
+    100088: grove_mirror:pasted__nurbsCircle1
+    100090: grove_mirror:pasted__pasted__loftedSurface2
+    100092: grove_mirror:pasted__pasted__loftedSurface5
+    100094: grove_mirror:pasted__pasted__loftedSurface5 1
+    100096: grove_mirror:pasted__pasted__loftedSurface6
+    100098: grove_mirror:pasted__pasted__nurbsCircle1
+    100100: grove_mirror:pasted__pasted__polySurface1
+    100102: grove_mirror:pasted__pasted__transform1
+    100104: grove_mirror:pasted__polySurface1
+    100106: grove_mirror:pasted__polySurface1 1
+    100108: grove_mirror:pasted__pTorus1
+    100110: grove_mirror:pasted__transform1
+    100112: grove_mirror:pasted__transform1 1
+    100114: grove_mirror:pasted__transform2
+    100116: grove_mirror:pasted__transform3
+    100118: grove_mirror:pasted__transform4
+    100120: grove_mirror:pasted__transform5
+    100122: grove_mirror:pasted__transform6
+    100124: grove_mirror:pasted__transform7
+    100126: grove_mirror:pasted__transform8
+    100128: grove_mirror:pasted__transform9
+    100130: grove_mirror:polySurface1
+    100132: grove_mirror:polySurface2
+    100134: grove_mirror:polySurface3
+    100136: grove_mirror:polySurface4
+    100138: grove_mirror:polySurface5
+    100140: grove_mirror:polySurface6
+    100142: grove_mirror:polySurface7
+    100144: grove_mirror:polySurface8
+    100146: grove_mirror:polySurface9
+    100148: grove_mirror:pTorus1
+    100150: grove_mirror:transform1
+    100152: grove_mirror:transform10
+    100154: grove_mirror:transform11
+    100156: grove_mirror:transform12
+    100158: grove_mirror:transform13
+    100160: grove_mirror:transform14
+    100162: grove_mirror:transform15
+    100164: grove_mirror:transform2
+    100166: grove_mirror:transform3
+    100168: grove_mirror:transform4
+    100170: grove_mirror:transform5
+    100172: grove_mirror:transform6
+    100174: grove_mirror:transform7
+    100176: grove_mirror:transform8
+    100178: grove_mirror:transform9
+    100180: //RootNode
+    100182: planarTrimmedSurface1
+    400000: grove_mirror:bottom
+    400002: grove_mirror:curve1
+    400004: grove_mirror:group
+    400006: grove_mirror:group1
+    400008: grove_mirror:group10
+    400010: grove_mirror:group11
+    400012: grove_mirror:group12
+    400014: grove_mirror:group13
+    400016: grove_mirror:group14
+    400018: grove_mirror:group2
+    400020: grove_mirror:group3
+    400022: grove_mirror:group4
+    400024: grove_mirror:group5
+    400026: grove_mirror:group6
+    400028: grove_mirror:group7
+    400030: grove_mirror:group8
+    400032: grove_mirror:group9
+    400034: grove_mirror:loftedSurface2
+    400036: grove_mirror:loftedSurface5
+    400038: grove_mirror:loftedSurface6
+    400040: grove_mirror:loftedSurface7
+    400042: grove_mirror:loftedSurface8
+    400044: grove_mirror:pasted__group
+    400046: grove_mirror:pasted__group1
+    400048: grove_mirror:pasted__group1 1
+    400050: grove_mirror:pasted__group10
+    400052: grove_mirror:pasted__group11
+    400054: grove_mirror:pasted__group13
+    400056: grove_mirror:pasted__group3
+    400058: grove_mirror:pasted__group5
+    400060: grove_mirror:pasted__group7
+    400062: grove_mirror:pasted__group7 1
+    400064: grove_mirror:pasted__group9
+    400066: grove_mirror:pasted__loftedSurface2
+    400068: grove_mirror:pasted__loftedSurface2 1
+    400070: grove_mirror:pasted__loftedSurface5
+    400072: grove_mirror:pasted__loftedSurface5 1
+    400074: grove_mirror:pasted__loftedSurface5 2
+    400076: grove_mirror:pasted__loftedSurface6
+    400078: grove_mirror:pasted__loftedSurface6 1
+    400080: grove_mirror:pasted__loftedSurface7
+    400082: grove_mirror:pasted__loftedSurface7 1
+    400084: grove_mirror:pasted__loftedSurface8
+    400086: grove_mirror:pasted__loftedSurface8 1
+    400088: grove_mirror:pasted__nurbsCircle1
+    400090: grove_mirror:pasted__pasted__loftedSurface2
+    400092: grove_mirror:pasted__pasted__loftedSurface5
+    400094: grove_mirror:pasted__pasted__loftedSurface5 1
+    400096: grove_mirror:pasted__pasted__loftedSurface6
+    400098: grove_mirror:pasted__pasted__nurbsCircle1
+    400100: grove_mirror:pasted__pasted__polySurface1
+    400102: grove_mirror:pasted__pasted__transform1
+    400104: grove_mirror:pasted__polySurface1
+    400106: grove_mirror:pasted__polySurface1 1
+    400108: grove_mirror:pasted__pTorus1
+    400110: grove_mirror:pasted__transform1
+    400112: grove_mirror:pasted__transform1 1
+    400114: grove_mirror:pasted__transform2
+    400116: grove_mirror:pasted__transform3
+    400118: grove_mirror:pasted__transform4
+    400120: grove_mirror:pasted__transform5
+    400122: grove_mirror:pasted__transform6
+    400124: grove_mirror:pasted__transform7
+    400126: grove_mirror:pasted__transform8
+    400128: grove_mirror:pasted__transform9
+    400130: grove_mirror:polySurface1
+    400132: grove_mirror:polySurface2
+    400134: grove_mirror:polySurface3
+    400136: grove_mirror:polySurface4
+    400138: grove_mirror:polySurface5
+    400140: grove_mirror:polySurface6
+    400142: grove_mirror:polySurface7
+    400144: grove_mirror:polySurface8
+    400146: grove_mirror:polySurface9
+    400148: grove_mirror:pTorus1
+    400150: grove_mirror:transform1
+    400152: grove_mirror:transform10
+    400154: grove_mirror:transform11
+    400156: grove_mirror:transform12
+    400158: grove_mirror:transform13
+    400160: grove_mirror:transform14
+    400162: grove_mirror:transform15
+    400164: grove_mirror:transform2
+    400166: grove_mirror:transform3
+    400168: grove_mirror:transform4
+    400170: grove_mirror:transform5
+    400172: grove_mirror:transform6
+    400174: grove_mirror:transform7
+    400176: grove_mirror:transform8
+    400178: grove_mirror:transform9
+    400180: //RootNode
+    400182: planarTrimmedSurface1
+    2300000: grove_mirror:polySurface2
+    2300002: grove_mirror:polySurface3
+    2300004: grove_mirror:polySurface4
+    2300006: grove_mirror:polySurface5
+    2300008: grove_mirror:polySurface6
+    2300010: grove_mirror:polySurface7
+    2300012: grove_mirror:polySurface8
+    2300014: grove_mirror:polySurface9
+    2300016: planarTrimmedSurface1
+    3300000: grove_mirror:polySurface2
+    3300002: grove_mirror:polySurface3
+    3300004: grove_mirror:polySurface4
+    3300006: grove_mirror:polySurface5
+    3300008: grove_mirror:polySurface6
+    3300010: grove_mirror:polySurface7
+    3300012: grove_mirror:polySurface8
+    3300014: grove_mirror:polySurface9
+    3300016: planarTrimmedSurface1
+    4300000: grove_mirror:polySurface2
+    4300002: grove_mirror:polySurface3
+    4300004: grove_mirror:polySurface4
+    4300006: grove_mirror:polySurface5
+    4300008: grove_mirror:polySurface6
+    4300010: grove_mirror:polySurface7
+    4300012: grove_mirror:polySurface8
+    4300014: grove_mirror:polySurface9
+    4300016: planarTrimmedSurface1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
