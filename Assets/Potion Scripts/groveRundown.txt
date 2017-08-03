@@ -1,0 +1,19 @@
+There is a blank mirror
+a tree and the fruit
+
+you stand on the rug (required)
+stick figure appears
+click on fruit
+do you want this? Yes No
+No does nothing
+Yes makes it disappear, 
+
+stand on rug again (required)
+you are 3D in mirror
+appears on a different branch nearby
+Do you want more? 
+Yes no
+no does nothing
+
+Yes makes world fade out and you appear in the cabin
+
