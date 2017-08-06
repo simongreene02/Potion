@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DrinkScript : MonoBehaviour {
 
-	float state = 2; // 0 = gliding out, 1 = waiting to be drunk, 2 = waiting to be served
+	private float state = 2; // 0 = gliding out, 1 = waiting to be drunk, 2 = waiting to be served
 	public Vector3 startPosition;
 	public Vector3 endPosition;
 	public static int drinksDrunk;

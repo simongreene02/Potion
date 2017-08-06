@@ -94,8 +94,10 @@
     <Compile Include="Assets\Potion Scripts\BarScripts\DrinkScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\LockScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\NecklaceScript.cs" />
+    <Compile Include="Assets\Potion Scripts\BarScripts\RugScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
     <Compile Include="Assets\Potion Scripts\GroveScripts\LevitateGround.cs" />
+    <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Potion Scripts\ClickHandler.txt" />
