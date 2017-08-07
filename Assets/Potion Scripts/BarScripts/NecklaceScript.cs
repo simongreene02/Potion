@@ -8,6 +8,7 @@ public class NecklaceScript : MonoBehaviour {
 	public int state;
 	public Vector3 appearPosition;
 	public GameObject point;
+	public RugScript rugScript;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,7 @@ public class NecklaceScript : MonoBehaviour {
 			this.gameObject.transform.position = point.transform.position;
 			this.gameObject.transform.rotation = point.transform.rotation;
 		}
+		rugScript.enabled = (state == 2);
 	}
 
 	public void BringNecklaceToTable() {
