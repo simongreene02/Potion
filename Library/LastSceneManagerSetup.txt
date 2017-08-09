@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Potion Scenes/Potion - Bar v1.2.unity
+- path: Assets/Potion Scenes/Potion - Bar v1.3.unity
   isLoaded: 1
   isActive: 1
