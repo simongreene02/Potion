@@ -9,6 +9,7 @@ public class RugScript : MonoBehaviour {
 	public Vector3 startPosititon;
 	public Vector3 endPosition;
 	public LockScript lockScript;
+	public int awokenFrames = 0;
 
 
 	// Use this for initialization
@@ -26,11 +27,14 @@ public class RugScript : MonoBehaviour {
 			location += Time.deltaTime;
 		}
 		panel.transform.position = new Vector3 (Mathf.Lerp (startPosititon.x, endPosition.x, location), Mathf.Lerp (startPosititon.y, endPosition.y, location), Mathf.Lerp (startPosititon.z, endPosition.z, location));
+		awokenFrames++;
 	}
 
 	void OnTriggerEnter(Collider other) {
 		if (other.transform.tag == "Player") {
-			location += Time.deltaTime;
+			if (awokenFrames > 1) {
+				location += Time.deltaTime;
+			}
 		}
 	}
 }

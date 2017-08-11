@@ -46,12 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Potion Scripts\ClickHandlerDrinkOrderScript.cs" />
-     <Compile Include="Assets\Potion Scripts\ClickHandlerDrinkScript.cs" />
-     <Compile Include="Assets\Potion Scripts\DrinkHandlerScript.cs" />
-     <Compile Include="Assets\Potion Scripts\DrinkOrderScript.cs" />
-     <Compile Include="Assets\Potion Scripts\DrinkScript.cs" />
-     <Compile Include="Assets\Potion Scripts\ShardHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkOrderScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\DrinkHandlerScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\DrinkOrderScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\DrinkScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\LockScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\NecklaceScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\RugScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\GroveScripts\LevitateGround.cs" />
+     <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -155,6 +160,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Potion Scripts\groveRundown.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Simon/Documents/GitHub/Potion/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  appearPosition: {x: 257.742, y: 1.57, z: 280.11}
+  appearPosition: {x: 257.742, y: 1.57, z: 281.11}
   point: {fileID: 927999607}
   rugScript: {fileID: 1151287484}
 --- !u!65 &132555671
@@ -11947,6 +11947,7 @@ MonoBehaviour:
   startPosititon: {x: 263.7418, y: 2.649841, z: 281.44}
   endPosition: {x: 263.7418, y: 2.649841, z: 276.57}
   lockScript: {fileID: 1258331517}
+  awokenFrames: 0
 --- !u!65 &1151287485
 BoxCollider:
   m_ObjectHideFlags: 0
