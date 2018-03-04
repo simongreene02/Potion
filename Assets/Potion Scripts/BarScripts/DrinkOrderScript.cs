@@ -7,6 +7,7 @@ public class DrinkOrderScript : MonoBehaviour {
 	public DrinkScript drinkScript;
 	public NecklaceScript necklaceScript;
 	public readonly int maxDrinkThreshold = 6;
+	public ParticleSystem fog;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,9 @@ public class DrinkOrderScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (DrinkScript.drinksDrunk == 6) {
+			fog.Stop();
+		}
 	}
 
 	public void OnBeingClicked() {
@@ -26,6 +29,12 @@ public class DrinkOrderScript : MonoBehaviour {
 			DrinkScript.drinksDrunk = 0;
 			this.gameObject.GetComponent<ClickHandlerDrinkOrderScript> ().enabled = false;
 			this.enabled = false;
+		}
+		if (DrinkScript.drinksDrunk == 1) {
+			fog.Play();
+		}
+		if (DrinkScript.drinksDrunk == 2) {
+			fog.Play();
 		}
 	}
 		

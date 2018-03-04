@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 99
+  controlID: 97
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 129
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 130
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,19 +325,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Potion Scripts/BarScripts
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Potion Scripts/BarScripts
+  - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\k\Documents\GitHub\Potion
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 37}
-    m_SelectedIDs: 7c3c0000
-    m_LastClickedID: 15484
-    m_ExpandedIDs: 00000000782b0000222e0000c02f0000ee2f0000483000001a330000e633000054380000243a0000ec3d0000464000007c410000d4430000de430000144400009e440000f24400008c5400008e5400009054000092540000945400009654000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 527}
+    m_SelectedIDs: f83c0000
+    m_LastClickedID: 15608
+    m_ExpandedIDs: 00000000782b0000222e0000c02f0000ee2f00004a3000001c330000ea330000583800002e3a0000f83d0000524000008a410000e2430000ec43000022440000ac440000004500009a5400009c5400009e540000a0540000a2540000a454000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000782b0000222e0000c02f0000ee2f0000483000001a330000e633000054380000243a0000ec3d0000464000007c410000d4430000de430000144400009e440000f24400008c5400008e54000090540000925400009454000096540000
+    m_ExpandedIDs: 00000000782b0000222e0000c02f0000ee2f00004a3000001c330000ea330000583800002e3a0000f83d0000524000008a410000e2430000ec43000022440000ac440000004500009a5400009c5400009e540000a0540000a2540000a4540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +446,7 @@ MonoBehaviour:
     y: 92
     width: 309
     height: 710
-  m_ScrollPosition: {x: 0, y: 58.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -480,10 +480,10 @@ MonoBehaviour:
     width: 301
     height: 421
   m_TreeViewState:
-    scrollPos: {x: 0, y: 249.54546}
-    m_SelectedIDs: f0090000
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    scrollPos: {x: 0, y: 76}
+    m_SelectedIDs: a88bfcff
+    m_LastClickedID: -226392
+    m_ExpandedIDs: 6cd3fcff88defcff7600fdfff226fdffe82dfdff0241fdffa851fdffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,10 +499,10 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Potion - Bar- drinking contest
+  - Potion - Cabin v1.6
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 918
     height: 421
   m_SceneLighting: 1
-  lastFramingTime: 0
+  lastFramingTime: 152.89537027160495
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 257.123, y: 1.3155545, z: 279.968}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 257.123, y: 1.3155545, z: 279.968}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,13 +563,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.11731753, y: 0.87109405, z: -0.25266704, w: -0.40446734}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.11731737, y: 0.8710929, z: -0.2526667, w: -0.4044668}
   m_Size:
-    m_Target: 10
+    m_Target: 2.3475366
     speed: 2
-    m_Value: 10
+    m_Value: 2.3475366
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -6,6 +6,7 @@ public class DrinkHandlerScript : MonoBehaviour {
 
 	public GameObject[] drinkList;
 	public DrinkOrderScript orderScript;
+	public BackAndForthScript buttonMover;
 
 	// Use this for initialization
 	void Start () {
@@ -14,11 +15,17 @@ public class DrinkHandlerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		for (int i = 0; i < drinkList.GetLength(0); i++) {
+		for (int i = 0; i < drinkList.Length; i++) {
 			drinkList [i].active = (DrinkScript.drinksDrunk == i);
-			if (DrinkScript.drinksDrunk == i) {
-				orderScript.drinkScript = drinkList [i].GetComponent<DrinkScript>() as DrinkScript;
-			}
+		}
+		if (DrinkScript.drinksDrunk < drinkList.Length) {
+			orderScript.drinkScript = drinkList [DrinkScript.drinksDrunk].GetComponent<DrinkScript> () as DrinkScript;
+		}
+		if (DrinkScript.drinksDrunk == 1) {
+			buttonMover.enabled = true;
+		}
+		if (DrinkScript.drinksDrunk == 6) {
+			buttonMover.enabled = false;
 		}
 	}
 }

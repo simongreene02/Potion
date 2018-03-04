@@ -1,0 +1,39 @@
+Click Button 1
+Drink Appears.
+
+Click Drink 1
+Charms Appear.
+Activate ButtonMoveScript
+
+Click Button 2
+Drink Appears.
+Minimal Fog
+
+Click Drink 2
+Charms Appear.
+
+Click Button 3
+Drink Appears.
+Large Fog
+
+Click Drink 3
+Charms Appear.
+
+Click Button 4
+Drink Appears.
+
+Click Drink 4
+Charms Appear.
+
+Click Button 5
+Drink Appears.
+
+Click Drink 5
+Charms Appear.
+
+Click Button 6
+Drink Appears.
+
+Click Drink 6
+Charms Appear.
+All effects removed.
