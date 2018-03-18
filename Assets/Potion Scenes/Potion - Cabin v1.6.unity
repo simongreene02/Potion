@@ -4184,6 +4184,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &244516868 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
+  m_PrefabInternal: {fileID: 244516867}
+--- !u!64 &244516869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 244516868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
 --- !u!1 &246372561
 GameObject:
   m_ObjectHideFlags: 0
@@ -24208,6 +24226,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1483275154 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
+  m_PrefabInternal: {fileID: 1483275153}
+--- !u!64 &1483275155
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1483275154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
 --- !u!1 &1485927296
 GameObject:
   m_ObjectHideFlags: 0
@@ -25819,6 +25855,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1602449320 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
+  m_PrefabInternal: {fileID: 1602449319}
+--- !u!64 &1602449321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1602449320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
 --- !u!1 &1612185703
 GameObject:
   m_ObjectHideFlags: 0
@@ -27000,6 +27054,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1668209915 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
+  m_PrefabInternal: {fileID: 1668209914}
+--- !u!64 &1668209916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668209915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: fe231e885d4159d4daf14fa865792522, type: 3}
 --- !u!1 &1671011108
 GameObject:
   m_ObjectHideFlags: 0
@@ -30110,7 +30182,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.318
+      value: 1.45
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -33261,6 +33333,49 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfe66da238c3fc9438740ece579acd14, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &2093287286 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: bfe66da238c3fc9438740ece579acd14, type: 3}
+  m_PrefabInternal: {fileID: 2093287285}
+--- !u!64 &2093287287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093287286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: bfe66da238c3fc9438740ece579acd14, type: 3}
+--- !u!114 &2093287288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093287286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d93f09b17096e1479a1095e52691b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Potion Scenes/Potion - Bar- drinking contest
+--- !u!114 &2093287289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093287286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a539481337b1b84f96f88e33e15fab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickScript: {fileID: 2093287288}
+  childScripts: []
 --- !u!1 &2097205184
 GameObject:
   m_ObjectHideFlags: 0

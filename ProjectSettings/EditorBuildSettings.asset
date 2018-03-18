@@ -23,12 +23,18 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Potion Scenes/Potion - Tree + Fruit + Mirror v1.6 .unity
-    guid: feef35dd50d713b448b1776de58094af
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Potion Scenes/Potion - Tree Start.unity
+    guid: 289690b8be1864e4bb96a899cb057826
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Cabin v1.6.unity
+    guid: f2b9945f9190ddb42b62385e0bae6431
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Bar- drinking contest.unity
+    guid: 1db70d0459b1b3841b4c266bcbe31f5b
