@@ -243,7 +243,12 @@
     <Compile Include="Assets\Potion Scripts\BarScripts\RugScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
     <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
-    <Compile Include="Assets\Potion Scripts\GroveScripts\LevitateGround.cs" />
+    <Compile Include="Assets\Potion Scripts\CabinScripts\ChangeScene.cs" />
+    <Compile Include="Assets\Potion Scripts\CabinScripts\ClickHandlerChangeScene.cs" />
+    <Compile Include="Assets\Potion Scripts\GroveScripts\ClickHandlerObjToggler.cs" />
+    <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
+    <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
+    <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
     <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
   </ItemGroup>
   <ItemGroup>
