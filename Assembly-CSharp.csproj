@@ -64,6 +64,8 @@
      <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
      <Compile Include="Assets\Potion Scripts\CabinScripts\ChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\CabinScripts\ClickHandlerChangeScene.cs" />
+     <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\SeedScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ClickHandlerObjToggler.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
