@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Potion Scenes/Potion - Bar- drinking contest.unity
     guid: 1db70d0459b1b3841b4c266bcbe31f5b
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Garden v2.unity
+    guid: d801c22e77552704999b30615a561c15

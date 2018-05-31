@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class FlagHandler : MonoBehaviour {
 
-	private Dictionary<string, Object> flags = new Dictionary<string, Object> ();
+	public Dictionary<string, int> flags = new Dictionary<string, int> ();
 	private static FlagHandler mainInstance = null;
 
 	// Use this for initialization
@@ -36,17 +36,22 @@ public class FlagHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 	}
 
-	public static void SetItem(string key, Object value) {
-		mainInstance.flags[key] = value;
+	public static void SetItem(string key, int value) {
+		if (mainInstance.flags.ContainsKey (key)) {
+			mainInstance.flags [key] = value;
+		} else {
+			mainInstance.flags.Add (key, value);
+		}
 	}
 
 	public static bool ContainsKey(string key) {
 		return mainInstance.flags.ContainsKey (key);
 	}
 
-	public static Object GetItem(string key) {
+	public static int GetItem(string key) {
 		return mainInstance.flags[key];
 	}
 

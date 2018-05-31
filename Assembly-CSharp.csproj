@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Potion Scripts\ActivateOnClickScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\BackAndForthScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkOrderScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkScript.cs" />
@@ -64,8 +65,12 @@
      <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
      <Compile Include="Assets\Potion Scripts\CabinScripts\ChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\CabinScripts\ClickHandlerChangeScene.cs" />
+     <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
      <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
-     <Compile Include="Assets\Potion Scripts\GardenScripts\SeedScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\FruitScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\PlotScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ClickHandlerObjToggler.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
