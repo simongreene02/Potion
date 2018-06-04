@@ -11,7 +11,6 @@ public class BasketAScript : MonoBehaviour, ActivateOnClickScript {
 
 	// Use this for initialization
 	void Start () {
-		basketB.GetComponent<BasketBScript> ().setSeedsInCrate (fruitPickingThreshold);
 	}
 	
 	// Update is called once per frame

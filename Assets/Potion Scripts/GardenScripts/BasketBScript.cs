@@ -6,10 +6,11 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 
 	public static bool holdingSeed = false;
 	public GameObject[] unplantedSeeds;
-	private int seedsInCrate = 0;
+	private int seedsInCrate;
 
 	// Use this for initialization
 	void Start () {
+		seedsInCrate = unplantedSeeds.Length;
 	}
 	
 	// Update is called once per frame
@@ -17,6 +18,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 		for (int i = 0; i < unplantedSeeds.Length; i++) {
 			unplantedSeeds[i].SetActive (i < seedsInCrate);
 		}
+		print (holdingSeed + " " + seedsInCrate);
 	}
 
 	public void OnBeingClicked() {
@@ -24,9 +26,5 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			holdingSeed = true;
 			seedsInCrate--;
 		}
-	}
-
-	public void setSeedsInCrate(int s) {
-		seedsInCrate = s;
 	}
 }
