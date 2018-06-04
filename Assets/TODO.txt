@@ -1,0 +1,22 @@
+Garden Specs #2
+
+Glossary:
+Seeds= purple asset on tree
+Plot = spheres on the garden grid
+Crops= purple spheres are changed to red, blue and yellow (multicolor) spheres after the sun crosses the sky in the garden
+Harvest = picking seeds from tree OR picking crops from plot
+
+
+
+Gardner teleports from cabin to garden
+Thief teleports from cabin to hill
+
+Gardner and thief can both harvest from tree
+Only garder can plant seeds into plot
+Only garder can harvest crops from plot
+Gardner gets ticket to the ocean after harvesting crops and putting into basket
+
+Thief can take basket of harvested seeds and bring it to the bar, 
+But once there, thief cannot get in
+Thief can only take basket back to garden
+Once there, only thing thief can do is pick the “Going nowhere? Try being someone else?” - then becomes a ragdoll until Garder harvests crops 
