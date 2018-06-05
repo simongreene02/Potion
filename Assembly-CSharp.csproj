@@ -64,7 +64,6 @@
      <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
      <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
      <Compile Include="Assets\Potion Scripts\CabinScripts\ChangeScene.cs" />
-     <Compile Include="Assets\Potion Scripts\CabinScripts\ClickHandlerChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
      <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
@@ -111,6 +110,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\TODO.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />

@@ -36,7 +36,7 @@ public class FlagHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		print(JsonUtility.ToJson (this));
 	}
 
 	public static void SetItem(string key, int value) {
@@ -60,7 +60,12 @@ public class FlagHandler : MonoBehaviour {
 	}
 
 	public static void ChangeScene(string sceneName) {
-		StreamWriter sw = new StreamWriter ("flags.json", false);
+		StreamWriter sw;
+		if (File.Exists ("flags.json")) {
+			sw = new StreamWriter ("flags.json", false);
+		} else {
+			sw = File.CreateText("flags.json");
+		}
 		sw.Write (JsonUtility.ToJson (mainInstance));
 		sw.Close ();
 		SceneManager.LoadScene (sceneName);

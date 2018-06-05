@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour {
+public class ChangeScene : MonoBehaviour, ActivateOnClickScript {
+	public int character;
 	public string sceneName;
 
 	// Use this for initialization
@@ -17,6 +18,7 @@ public class ChangeScene : MonoBehaviour {
 	}
 
 	public void OnBeingClicked () {
-		SceneManager.LoadScene (sceneName);
+		FlagHandler.SetItem("character", character);
+		FlagHandler.ChangeScene(sceneName);
 	}
 }
