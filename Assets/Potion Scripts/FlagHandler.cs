@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
@@ -6,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class FlagHandler : MonoBehaviour {
 
-	public Dictionary<string, int> flags = new Dictionary<string, int> ();
+	public SerializableDictionary<string, int> flags = new SerializableDictionary<string, int> ();
 	private static FlagHandler mainInstance = null;
 
 	// Use this for initialization
@@ -24,11 +25,13 @@ public class FlagHandler : MonoBehaviour {
 		}
 		if (File.Exists ("flags.json")) {
 			StreamReader reader = new StreamReader ("flags.json");
-			JsonUtility.FromJsonOverwrite (reader.ReadToEnd (), this);
+			JsonUtility.FromJsonOverwrite (reader.ReadToEnd (), flags);
+			flags.OnAfterDeserialize ();
 			reader.Close ();
 		} else {
 			StreamWriter sw = File.CreateText("flags.json");
-			sw.Write (JsonUtility.ToJson (this));
+			flags.OnBeforeSerialize ();
+			sw.Write (JsonUtility.ToJson (flags));
 			sw.Close ();
 		}
 		print (SceneManager.GetActiveScene ().name);
@@ -36,7 +39,7 @@ public class FlagHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print(JsonUtility.ToJson (this));
+		
 	}
 
 	public static void SetItem(string key, int value) {
@@ -66,7 +69,8 @@ public class FlagHandler : MonoBehaviour {
 		} else {
 			sw = File.CreateText("flags.json");
 		}
-		sw.Write (JsonUtility.ToJson (mainInstance));
+		mainInstance.flags.OnBeforeSerialize ();
+		sw.Write (JsonUtility.ToJson (mainInstance.flags));
 		sw.Close ();
 		SceneManager.LoadScene (sceneName);
 	}

@@ -75,6 +75,7 @@
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
      <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
+     <Compile Include="Assets\Potion Scripts\SerializableDictionary.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

@@ -25,8 +25,8 @@ public class BasketAScript : MonoBehaviour, ActivateOnClickScript {
 		for (int i = 0; i < pickedFruitProps.Length; i++) {
 			pickedFruitProps [i].SetActive (i < fruitsInCrate);
 		}
-		basketB.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 0);
-		miniBasket.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 2);
+		basketB.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 2);
+		miniBasket.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 0);
 		this.gameObject.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 0);
 	}
 
