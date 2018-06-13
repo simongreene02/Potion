@@ -5,7 +5,6 @@ using UnityEngine;
 public class BasketAScript : MonoBehaviour, ActivateOnClickScript {
 
 	public GameObject basketB;
-	public GameObject miniBasket;
 	public GameObject[] pickedFruitProps;
 	private int fruitsInCrate = 0;
 	public int fruitPickingThreshold = 9;
@@ -25,8 +24,7 @@ public class BasketAScript : MonoBehaviour, ActivateOnClickScript {
 		for (int i = 0; i < pickedFruitProps.Length; i++) {
 			pickedFruitProps [i].SetActive (i < fruitsInCrate);
 		}
-		basketB.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 2);
-		miniBasket.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1 && FlagHandler.GetItem("character") == 0);
+		basketB.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1);
 		this.gameObject.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 0);
 	}
 

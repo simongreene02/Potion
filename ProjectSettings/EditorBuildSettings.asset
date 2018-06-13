@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Potion Scenes/Potion - Garden v2.unity
     guid: d801c22e77552704999b30615a561c15
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Hill.unity
+    guid: 379c89e3dfd051045b63c5c1609da494

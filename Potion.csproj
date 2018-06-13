@@ -244,8 +244,7 @@
     <Compile Include="Assets\Potion Scripts\BarScripts\RugScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
     <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
-    <Compile Include="Assets\Potion Scripts\CabinScripts\ChangeScene.cs" />
-    <Compile Include="Assets\Potion Scripts\CabinScripts\ClickHandlerChangeScene.cs" />
+    <Compile Include="Assets\Potion Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
     <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
@@ -256,7 +255,9 @@
     <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
     <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
     <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
+    <Compile Include="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" />
     <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
+    <Compile Include="Assets\Potion Scripts\SerializableDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Potion Scripts\ClickHandler.txt" />
@@ -364,6 +365,7 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\TODO.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -13255,63 +13255,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!1 &888540578 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: a5e43398bf8b4af4f827e87214fe4f9e, type: 3}
-  m_PrefabInternal: {fileID: 282216942}
---- !u!114 &888540580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 888540578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1c81682a0c68064abf1b1765c95b766, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &888540581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 888540578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62adfa9067ac00849a0163d175f7d866, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unplantedSeeds:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!64 &888540582
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 888540578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!1 &891379238 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100022, guid: f342f8910d25be44799c8f1ec7a281d7, type: 3}
@@ -27421,6 +27364,7 @@ MonoBehaviour:
   - {fileID: 2091054956}
   - {fileID: 1152942227}
   - {fileID: 1318963669}
+  miniBasket: {fileID: 0}
 --- !u!114 &1696943624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34436,7 +34380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basketB: {fileID: 1696943547}
-  miniBasket: {fileID: 888540578}
   pickedFruitProps:
   - {fileID: 1960308068}
   - {fileID: 693801976}

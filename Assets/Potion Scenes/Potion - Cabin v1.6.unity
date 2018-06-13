@@ -9135,7 +9135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 0
-  sceneName: Potion Scenes/Potion - Garden v2
+  sceneName: Potion Scenes/Potion - Hill
 --- !u!114 &1000793396
 MonoBehaviour:
   m_ObjectHideFlags: 0
