@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjToggler : MonoBehaviour {
+public class ObjToggler : MonoBehaviour, ActivateOnClickScript {
 
 	public GameObject[] objsToAppear;
 	public GameObject[] objsToDisappear;
