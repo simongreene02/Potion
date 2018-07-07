@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571373, b: 0.30692255, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
@@ -1103,6 +1103,24 @@ Transform:
   m_Father: {fileID: 527765192}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &455314954 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
+  m_PrefabInternal: {fileID: 466021647}
+--- !u!64 &455314956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 455314954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
 --- !u!1001 &466021647
 Prefab:
   m_ObjectHideFlags: 0
@@ -1606,6 +1624,24 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!1 &632138835 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
+  m_PrefabInternal: {fileID: 466021647}
+--- !u!64 &632138837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632138835}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
 --- !u!1 &633297702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,7 +1771,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1827,6 +1863,23 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300062, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
+--- !u!1 &712005876 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
+  m_PrefabInternal: {fileID: 45316562}
+--- !u!114 &712005877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 712005876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d93f09b17096e1479a1095e52691b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: -1
+  sceneName: Potion - Garden v2
 --- !u!1 &731864368 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100184, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
@@ -3300,6 +3353,24 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300016, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
+--- !u!1 &1294073278 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
+  m_PrefabInternal: {fileID: 45316562}
+--- !u!64 &1294073280
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1294073278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
 --- !u!1 &1313040279 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100058, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
@@ -5909,6 +5980,24 @@ Transform:
   m_Father: {fileID: 370675032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1738762581 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
+  m_PrefabInternal: {fileID: 466021647}
+--- !u!64 &1738762583
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738762581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 2fe79c7fa4070dc4f8a8f55655a9e11a, type: 3}
 --- !u!1 &1740517834
 GameObject:
   m_ObjectHideFlags: 0
@@ -6056,7 +6145,7 @@ Transform:
   - {fileID: 1626982061}
   - {fileID: 357025470}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1779031831
 GameObject:
@@ -6360,7 +6449,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b9b8ad3379b621a48b1205d694b83ec1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b9b8ad3379b621a48b1205d694b83ec1, type: 3}
       propertyPath: m_LocalScale.x
@@ -6401,6 +6490,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9b8ad3379b621a48b1205d694b83ec1, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1899618620 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
+  m_PrefabInternal: {fileID: 45316562}
+--- !u!64 &1899618622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1899618620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
 --- !u!1 &1915324686
 GameObject:
   m_ObjectHideFlags: 0
@@ -6793,7 +6900,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
       propertyPath: m_LocalScale.x
@@ -7201,6 +7308,24 @@ Transform:
   m_Father: {fileID: 2114551595}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2096120433 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
+  m_PrefabInternal: {fileID: 45316562}
+--- !u!64 &2096120435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2096120433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 1b1bfc22a0046714ba189b29af79135c, type: 3}
 --- !u!1 &2101214325 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 69fea8377637d3e4f8c4d02d082e3d27, type: 3}
