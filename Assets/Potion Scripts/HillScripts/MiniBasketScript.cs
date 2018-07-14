@@ -11,8 +11,6 @@ public class MiniBasketScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (FlagHandler.ContainsKey ("carryingBasket")) {
-			this.gameObject.GetComponent<MeshRenderer>().enabled = FlagHandler.GetItem ("carryingBasket") == 0;
-		}
+		this.gameObject.GetComponent<MeshRenderer>().enabled = FlagHandler.ContainsKey("carryingBasket") && FlagHandler.GetItem ("carryingBasket") == 1;
 	}
 }
