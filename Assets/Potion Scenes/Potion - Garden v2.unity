@@ -11290,6 +11290,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.9677296
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
@@ -27217,7 +27221,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: a5e43398bf8b4af4f827e87214fe4f9e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.75
+      value: 0.61115
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: a5e43398bf8b4af4f827e87214fe4f9e, type: 3}
       propertyPath: m_LocalScale.z
@@ -27586,7 +27590,7 @@ MonoBehaviour:
   - {fileID: 2091054956}
   - {fileID: 1152942227}
   - {fileID: 1318963669}
-  miniBasket: {fileID: 0}
+  miniBasket: {fileID: 2118532180}
 --- !u!114 &1696943624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35598,6 +35602,10 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300010, guid: f342f8910d25be44799c8f1ec7a281d7, type: 3}
+--- !u!1 &2118532180 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: a5e43398bf8b4af4f827e87214fe4f9e, type: 3}
+  m_PrefabInternal: {fileID: 282216942}
 --- !u!1001 &2119318241
 Prefab:
   m_ObjectHideFlags: 0
