@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 51f69f470e5b0a54da2722e191770cb5
+timeCreated: 1531542388
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bathroom_sink
+    100002: bathtub
+    100004: bed_large
+    100006: bed_small
+    100008: chair1
+    100010: chair2
+    100012: chair3
+    100014: chair4
+    100016: coffee_table
+    100018: //RootNode
+    100020: dresser1
+    100022: dresser2
+    100024: house_complicated2
+    100026: kitchen_sink
+    100028: nightstand1
+    100030: nightstand2
+    100032: refrigerator
+    100034: sofa
+    100036: sofachair1
+    100038: sofachair3
+    100040: sofachair4
+    100042: stove
+    100044: table
+    100046: toilet
+    400000: bathroom_sink
+    400002: bathtub
+    400004: bed_large
+    400006: bed_small
+    400008: chair1
+    400010: chair2
+    400012: chair3
+    400014: chair4
+    400016: coffee_table
+    400018: //RootNode
+    400020: dresser1
+    400022: dresser2
+    400024: house_complicated2
+    400026: kitchen_sink
+    400028: nightstand1
+    400030: nightstand2
+    400032: refrigerator
+    400034: sofa
+    400036: sofachair1
+    400038: sofachair3
+    400040: sofachair4
+    400042: stove
+    400044: table
+    400046: toilet
+    2300000: bathroom_sink
+    2300002: bathtub
+    2300004: bed_large
+    2300006: bed_small
+    2300008: chair1
+    2300010: chair2
+    2300012: chair3
+    2300014: chair4
+    2300016: coffee_table
+    2300018: dresser1
+    2300020: dresser2
+    2300022: house_complicated2
+    2300024: kitchen_sink
+    2300026: nightstand1
+    2300028: nightstand2
+    2300030: refrigerator
+    2300032: sofa
+    2300034: sofachair1
+    2300036: sofachair3
+    2300038: sofachair4
+    2300040: stove
+    2300042: table
+    2300044: toilet
+    3300000: bathroom_sink
+    3300002: bathtub
+    3300004: bed_large
+    3300006: bed_small
+    3300008: chair1
+    3300010: chair2
+    3300012: chair3
+    3300014: chair4
+    3300016: coffee_table
+    3300018: dresser1
+    3300020: dresser2
+    3300022: house_complicated2
+    3300024: kitchen_sink
+    3300026: nightstand1
+    3300028: nightstand2
+    3300030: refrigerator
+    3300032: sofa
+    3300034: sofachair1
+    3300036: sofachair3
+    3300038: sofachair4
+    3300040: stove
+    3300042: table
+    3300044: toilet
+    4300000: sofa
+    4300002: sofachair1
+    4300004: table
+    4300006: bed_large
+    4300008: nightstand1
+    4300010: refrigerator
+    4300012: stove
+    4300014: kitchen_sink
+    4300016: bathtub
+    4300018: toilet
+    4300020: bathroom_sink
+    4300022: coffee_table
+    4300024: chair1
+    4300026: bed_small
+    4300028: dresser1
+    4300030: nightstand2
+    4300032: dresser2
+    4300034: chair2
+    4300036: chair3
+    4300038: chair4
+    4300040: house_complicated2
+    4300042: sofachair3
+    4300044: sofachair4
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 326a531019f04464682a9730d232bcbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 24369a93e54057f42a5e9d0abad687d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: bb9aceba5dfbeee49b5a6753a1f22c20, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
