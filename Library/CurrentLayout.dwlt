@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 108
+  controlID: 1701
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 109
+  controlID: 1702
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 110
+  controlID: 1703
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -284,10 +284,10 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 305
-    y: 19
+    y: 92
     width: 917
     height: 421
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -364,10 +364,10 @@ MonoBehaviour:
     width: 301
     height: 421
   m_TreeViewState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 1a65ffff
-    m_LastClickedID: -39654
-    m_ExpandedIDs: 1a65ffff32aeffffbae5ffffa6fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7c2bfeff
+    m_LastClickedID: -119940
+    m_ExpandedIDs: c8e9fdff7c2bfeff2234feff4089feffc6b6feff8480ffffc688ffff4ed5fffff6f3ffffa2f5ffffa6fbffff00000000e252000040530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Potion - Distillery v2
+  - Potion - Red Room
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -417,14 +417,14 @@ MonoBehaviour:
     width: 917
     height: 421
   m_SceneLighting: 1
-  lastFramingTime: 771.3577329944759
+  lastFramingTime: 9750.151888532588
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -58.533592, y: 395.1329, z: -48.715813}
+    m_Target: {x: -15.1, y: -59.3, z: -13.8}
     speed: 2
-    m_Value: {x: -58.533592, y: 395.1329, z: -48.715813}
+    m_Value: {x: -15.1, y: -59.3, z: -13.8}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,13 +447,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11378719, y: -0.17284647, z: 0.020123944, w: -0.97816956}
+    m_Target: {x: 0.11828855, y: 0.751898, z: -0.140641, w: 0.63325894}
     speed: 2
-    m_Value: {x: -0.11378468, y: -0.17284265, z: 0.0201235, w: -0.978148}
+    m_Value: {x: 0.1182803, y: 0.75184554, z: -0.1406312, w: 0.6332148}
   m_Size:
-    m_Target: 10.459363
+    m_Target: 25.664003
     speed: 2
-    m_Value: 10.459363
+    m_Value: 25.664003
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -518,7 +518,7 @@ MonoBehaviour:
     width: 1222
     height: 268
   m_SearchFilter:
-    m_NameFilter: blue
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -529,19 +529,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Potion Models/distillery
+    - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Potion Models/distillery
+  - Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\k\Documents\GitHub\Potion
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 186.94446}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000422b00000a2d0000de2f00000e3000005033000032350000f0360000e6380000523c00002e3e0000c44300009047000020480000ac4a0000504b00009a4b0000d84b0000706e0000726e0000746e0000766e0000786e00007a6e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 920.78284}
+    m_SelectedIDs: 6c420000
+    m_LastClickedID: 17004
+    m_ExpandedIDs: 00000000422b00000a2d0000de2f00000e300000ea30000034350000f2360000e8380000543c0000903e000026440000f2470000824800000e4b0000b24b0000fc4b00003a4c0000ea510000ec510000ee510000f0510000f2510000f45100001c5a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000422b00000a2d0000de2f00000e3000005033000032350000f0360000e6380000523c00002e3e0000c44300009047000020480000ac4a0000504b00009a4b0000d84b0000706e0000726e0000746e0000766e0000786e00007a6e0000
+    m_ExpandedIDs: 00000000422b00000a2d0000de2f00000e30000034350000f2360000e8380000543c0000903e000026440000f2470000824800000e4b0000b24b0000fc4b00003a4c0000ea510000ec510000ee510000f0510000f2510000f451000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_ExpandedInstanceIDs: 3c5a0000485a00006e5e0000925e00002c600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
