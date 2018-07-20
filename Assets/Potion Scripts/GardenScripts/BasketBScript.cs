@@ -8,6 +8,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 	public GameObject[] unplantedSeeds;
 	private int seedsInCrate;
 	public GameObject miniBasket;
+	public TicketToTheOceanScript ticketToTheOceanScript;
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +32,8 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			if (!holdingSeed && seedsInCrate > 0) {
 				holdingSeed = true;
 				seedsInCrate--;
+			} else if (holdingSeed && seedsInCrate == 0) {
+				ticketToTheOceanScript.Activate ();
 			}
 		} else {
 			FlagHandler.SetItem ("carryingBasket", 1);
