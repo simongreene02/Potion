@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: d3edf40954adcf343833c54852612441
+timeCreated: 1565391501
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: nurbsSphere1
+    100004: pSphere1
+    100006: pSphere10
+    100008: pSphere11
+    100010: pSphere12
+    100012: pSphere2
+    100014: pSphere3
+    100016: pSphere4
+    100018: pSphere5
+    100020: pSphere6
+    100022: pSphere7
+    100024: pSphere8
+    100026: pSphere9
+    100028: pTorus1
+    400000: //RootNode
+    400002: nurbsSphere1
+    400004: pSphere1
+    400006: pSphere10
+    400008: pSphere11
+    400010: pSphere12
+    400012: pSphere2
+    400014: pSphere3
+    400016: pSphere4
+    400018: pSphere5
+    400020: pSphere6
+    400022: pSphere7
+    400024: pSphere8
+    400026: pSphere9
+    400028: pTorus1
+    2300000: pSphere1
+    2300002: pSphere10
+    2300004: pSphere11
+    2300006: pSphere12
+    2300008: pSphere2
+    2300010: pSphere3
+    2300012: pSphere4
+    2300014: pSphere5
+    2300016: pSphere6
+    2300018: pSphere7
+    2300020: pSphere8
+    2300022: pSphere9
+    2300024: pTorus1
+    3300000: pSphere1
+    3300002: pSphere10
+    3300004: pSphere11
+    3300006: pSphere12
+    3300008: pSphere2
+    3300010: pSphere3
+    3300012: pSphere4
+    3300014: pSphere5
+    3300016: pSphere6
+    3300018: pSphere7
+    3300020: pSphere8
+    3300022: pSphere9
+    3300024: pTorus1
+    4300000: pTorus1
+    4300002: pSphere1
+    4300004: pSphere2
+    4300006: pSphere3
+    4300008: pSphere4
+    4300010: pSphere5
+    4300012: pSphere6
+    4300014: pSphere7
+    4300016: pSphere8
+    4300018: pSphere9
+    4300020: pSphere10
+    4300022: pSphere11
+    4300024: pSphere12
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 020a15e7251729e498e555696c0fe5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phongE2
+    second: {fileID: 2100000, guid: f1d3483f3bc51cd478cd9231a9f5d729, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

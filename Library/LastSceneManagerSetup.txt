@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Potion Scenes/Potion - Garden v2.unity
+- path: Assets/Potion Scenes/Potion - Bar- drinking contest.unity
   isLoaded: 1
   isActive: 1

@@ -14,7 +14,7 @@ public class RugScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		lockScript.enabled = false;
+		//lockScript.enabled = false;
 		panel.transform.position = new Vector3 (Mathf.Lerp (startPosititon.x, endPosition.x, 0), Mathf.Lerp (startPosititon.y, endPosition.y, 0), Mathf.Lerp (startPosititon.z, endPosition.z, 0));
 	}
 	

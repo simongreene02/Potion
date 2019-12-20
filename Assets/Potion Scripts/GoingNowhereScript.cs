@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GoingNowhereScript : MonoBehaviour, ActivateOnClickScript {
 
@@ -16,6 +17,6 @@ public class GoingNowhereScript : MonoBehaviour, ActivateOnClickScript {
 
 	public void OnBeingClicked () {
 		FlagHandler.SetItem ("carryingBasket", 0);
-		FlagHandler.ChangeScene ("Potion - Cabin v1.6");
+		SceneManager.LoadScene("Potion - Cabin v1.6");
 	}
 }

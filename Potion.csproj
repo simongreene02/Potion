@@ -7,13 +7,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{42F89334-28E9-D294-CE56-0D9C4789F5F4}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.0f3</UnityVersion>
@@ -184,17 +185,38 @@
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/k/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/k/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +231,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Potion Scripts\ActivateOnClickScript.cs" />
+    <Compile Include="Assets\Potion Scripts\AppearOnFlagValue.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\BackAndForthScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkOrderScript.cs" />
     <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkScript.cs" />
@@ -222,6 +245,7 @@
     <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
     <Compile Include="Assets\Potion Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
+    <Compile Include="Assets\Potion Scripts\ConditionalChangeScene.cs" />
     <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" />
@@ -231,9 +255,12 @@
     <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
     <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
     <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
+    <Compile Include="Assets\Potion Scripts\HillScripts\EnterBarScript.cs" />
     <Compile Include="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" />
     <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
+    <Compile Include="Assets\Potion Scripts\PlayableCharacters.cs" />
     <Compile Include="Assets\Potion Scripts\SerializableDictionary.cs" />
+    <Compile Include="Assets\Potion Scripts\TicketToTheOceanScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Potion Scripts\ClickHandler.txt" />

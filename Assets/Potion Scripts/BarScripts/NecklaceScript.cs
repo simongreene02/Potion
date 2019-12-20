@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NecklaceScript : MonoBehaviour {
+public class NecklaceScript : MonoBehaviour, ActivateOnClickScript {
 
 	[HideInInspector]
 	public int state;
 	public Vector3 appearPosition;
 	public GameObject point;
 	public RugScript rugScript;
+	public GameObject emptyNecklace;
 
 	// Use this for initialization
 	void Start () {
-		
+		BringNecklaceToTable ();
 	}
 	
 	// Update is called once per frame
@@ -28,13 +29,13 @@ public class NecklaceScript : MonoBehaviour {
 		if (state == 0) {
 			state++;
 			this.gameObject.transform.position = appearPosition;
+			emptyNecklace.SetActive (false);
 			print (state);
 		}
 	}
 
-	void OnTriggerEnter(Collider other) {
-		print (other.gameObject.tag);
-		if (state == 1 && other.gameObject.tag == "Player") {
+	public void OnBeingClicked() {
+		if (state == 1) {
 			state++;
 		}
 	}

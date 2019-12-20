@@ -20,6 +20,7 @@ public class ObjTogglerTrigger : MonoBehaviour {
 	public void OnTriggerEnter() {
 		for (int i = 0; i < objsToAppear.Length; i++) {
 			objsToAppear [i].SetActive (true);
+			print (objsToAppear [i].activeInHierarchy + " " + objsToAppear [i].activeSelf);
 		}
 		for (int i = 0; i < objsToDisappear.Length; i++) {
 			objsToDisappear [i].SetActive (false);

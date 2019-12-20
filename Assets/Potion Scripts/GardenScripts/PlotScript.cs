@@ -18,6 +18,7 @@ public class PlotScript : MonoBehaviour, ActivateOnClickScript {
 
 	public void OnBeingClicked() {
 		if (BasketBScript.holdingSeed && !plantedSeed.activeInHierarchy) {
+			print ("Not Holding Seed.");
 			BasketBScript.holdingSeed = false;
 			plantedSeed.SetActive (true);
 		}

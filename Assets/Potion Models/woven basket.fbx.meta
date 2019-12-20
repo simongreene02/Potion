@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: c4d2e728caef2e941bb0488d226c90e8
+timeCreated: 1575677323
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: nurbsToPoly1
+    100002: nurbsToPoly10
+    100004: nurbsToPoly11
+    100006: nurbsToPoly12
+    100008: nurbsToPoly13
+    100010: nurbsToPoly14
+    100012: nurbsToPoly15
+    100014: nurbsToPoly16
+    100016: nurbsToPoly17
+    100018: nurbsToPoly18
+    100020: nurbsToPoly19
+    100022: nurbsToPoly2
+    100024: nurbsToPoly20
+    100026: nurbsToPoly21
+    100028: nurbsToPoly22
+    100030: nurbsToPoly23
+    100032: nurbsToPoly24
+    100034: nurbsToPoly3
+    100036: nurbsToPoly4
+    100038: nurbsToPoly5
+    100040: nurbsToPoly6
+    100042: nurbsToPoly7
+    100044: nurbsToPoly8
+    100046: nurbsToPoly9
+    100048: pTorus1
+    100050: pTorus2
+    100052: pTorus3
+    100054: pTorus4
+    100056: pTorus5
+    100058: //RootNode
+    400000: nurbsToPoly1
+    400002: nurbsToPoly10
+    400004: nurbsToPoly11
+    400006: nurbsToPoly12
+    400008: nurbsToPoly13
+    400010: nurbsToPoly14
+    400012: nurbsToPoly15
+    400014: nurbsToPoly16
+    400016: nurbsToPoly17
+    400018: nurbsToPoly18
+    400020: nurbsToPoly19
+    400022: nurbsToPoly2
+    400024: nurbsToPoly20
+    400026: nurbsToPoly21
+    400028: nurbsToPoly22
+    400030: nurbsToPoly23
+    400032: nurbsToPoly24
+    400034: nurbsToPoly3
+    400036: nurbsToPoly4
+    400038: nurbsToPoly5
+    400040: nurbsToPoly6
+    400042: nurbsToPoly7
+    400044: nurbsToPoly8
+    400046: nurbsToPoly9
+    400048: pTorus1
+    400050: pTorus2
+    400052: pTorus3
+    400054: pTorus4
+    400056: pTorus5
+    400058: //RootNode
+    2300000: nurbsToPoly1
+    2300002: nurbsToPoly10
+    2300004: nurbsToPoly11
+    2300006: nurbsToPoly12
+    2300008: nurbsToPoly13
+    2300010: nurbsToPoly14
+    2300012: nurbsToPoly15
+    2300014: nurbsToPoly16
+    2300016: nurbsToPoly17
+    2300018: nurbsToPoly18
+    2300020: nurbsToPoly19
+    2300022: nurbsToPoly2
+    2300024: nurbsToPoly20
+    2300026: nurbsToPoly21
+    2300028: nurbsToPoly22
+    2300030: nurbsToPoly23
+    2300032: nurbsToPoly24
+    2300034: nurbsToPoly3
+    2300036: nurbsToPoly4
+    2300038: nurbsToPoly5
+    2300040: nurbsToPoly6
+    2300042: nurbsToPoly7
+    2300044: nurbsToPoly8
+    2300046: nurbsToPoly9
+    2300048: pTorus1
+    2300050: pTorus2
+    2300052: pTorus3
+    2300054: pTorus4
+    2300056: pTorus5
+    3300000: nurbsToPoly1
+    3300002: nurbsToPoly10
+    3300004: nurbsToPoly11
+    3300006: nurbsToPoly12
+    3300008: nurbsToPoly13
+    3300010: nurbsToPoly14
+    3300012: nurbsToPoly15
+    3300014: nurbsToPoly16
+    3300016: nurbsToPoly17
+    3300018: nurbsToPoly18
+    3300020: nurbsToPoly19
+    3300022: nurbsToPoly2
+    3300024: nurbsToPoly20
+    3300026: nurbsToPoly21
+    3300028: nurbsToPoly22
+    3300030: nurbsToPoly23
+    3300032: nurbsToPoly24
+    3300034: nurbsToPoly3
+    3300036: nurbsToPoly4
+    3300038: nurbsToPoly5
+    3300040: nurbsToPoly6
+    3300042: nurbsToPoly7
+    3300044: nurbsToPoly8
+    3300046: nurbsToPoly9
+    3300048: pTorus1
+    3300050: pTorus2
+    3300052: pTorus3
+    3300054: pTorus4
+    3300056: pTorus5
+    4300000: pTorus1
+    4300002: pTorus2
+    4300004: pTorus3
+    4300006: pTorus4
+    4300008: pTorus5
+    4300010: nurbsToPoly1
+    4300012: nurbsToPoly2
+    4300014: nurbsToPoly3
+    4300016: nurbsToPoly4
+    4300018: nurbsToPoly5
+    4300020: nurbsToPoly6
+    4300022: nurbsToPoly7
+    4300024: nurbsToPoly8
+    4300026: nurbsToPoly9
+    4300028: nurbsToPoly10
+    4300030: nurbsToPoly11
+    4300032: nurbsToPoly12
+    4300034: nurbsToPoly13
+    4300036: nurbsToPoly14
+    4300038: nurbsToPoly15
+    4300040: nurbsToPoly16
+    4300042: nurbsToPoly17
+    4300044: nurbsToPoly18
+    4300046: nurbsToPoly19
+    4300048: nurbsToPoly20
+    4300050: nurbsToPoly21
+    4300052: nurbsToPoly22
+    4300054: nurbsToPoly23
+    4300056: nurbsToPoly24
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 326a531019f04464682a9730d232bcbd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

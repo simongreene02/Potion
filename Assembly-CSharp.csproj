@@ -52,30 +52,53 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Potion Scripts\ActivateOnClickScript.cs" />
+     <Compile Include="Assets\Potion Scripts\AppearOnFlagValue.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\ActivateBarScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\BackAndForthScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkOrderScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\ClickHandlerDrinkScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\DomeScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\DrinkHandlerScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\DrinkOrderScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\DrinkScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\LockScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\makeNecklaceAppear.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\NecklaceScript.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\PotionDistilleryScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\RugScript.cs" />
      <Compile Include="Assets\Potion Scripts\BarScripts\ShardHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\BarScripts\SnapTogetherStateController.cs" />
      <Compile Include="Assets\Potion Scripts\BeachScripts\WaveRotation.cs" />
+     <Compile Include="Assets\Potion Scripts\CabinScripts\BeachTeleportScript.cs" />
+     <Compile Include="Assets\Potion Scripts\CabinScripts\LocationInitalizer.cs" />
+     <Compile Include="Assets\Potion Scripts\CabinScripts\PotionDistilleryScript.cs" />
      <Compile Include="Assets\Potion Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\ConditionalChangeScene.cs" />
+     <Compile Include="Assets\Potion Scripts\DistilleryScript\CatalystScript.cs" />
+     <Compile Include="Assets\Potion Scripts\DistilleryScript\NecklaceHolderScript.cs" />
+     <Compile Include="Assets\Potion Scripts\DistilleryScript\ShrinkScript.cs" />
+     <Compile Include="Assets\Potion Scripts\DistilleryScript\SpecialEnteranceScript.cs" />
+     <Compile Include="Assets\Potion Scripts\DistilleryScript\StillScript.cs" />
      <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\FruitHarvestScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\FruitScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\LightRotationScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\PlotScript.cs" />
      <Compile Include="Assets\Potion Scripts\GoingNowhereScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
+     <Compile Include="Assets\Potion Scripts\HillScripts\EnterBarScript.cs" />
      <Compile Include="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" />
+     <Compile Include="Assets\Potion Scripts\MirrorReflection.cs" />
      <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
+     <Compile Include="Assets\Potion Scripts\PlayableCharacters.cs" />
+     <Compile Include="Assets\Potion Scripts\RedRoomScript\BottleScript.cs" />
+     <Compile Include="Assets\Potion Scripts\RedRoomScript\RedRoomRugScript.cs" />
+     <Compile Include="Assets\Potion Scripts\SceneIDs.cs" />
      <Compile Include="Assets\Potion Scripts\SerializableDictionary.cs" />
      <Compile Include="Assets\Potion Scripts\TicketToTheOceanScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -174,6 +197,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Potion Scripts\MirrorReflection.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
@@ -185,7 +209,7 @@
      <None Include="Assets\Potion Scripts\groveRundown.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Simon/Documents/GitHub/Potion/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/simon/Documents/Potion/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -215,10 +239,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/Simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/Simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/simon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

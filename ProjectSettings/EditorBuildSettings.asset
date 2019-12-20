@@ -20,3 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Potion Scenes/Potion - Hill.unity
     guid: 379c89e3dfd051045b63c5c1609da494
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Distillery v2.unity
+    guid: 2301ff6b3e77c1e42a4dce591d7dc610
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Red Room.unity
+    guid: c26ea189e51e95d478526d483ec08438
+  - enabled: 1
+    path: Assets/Potion Scenes/Potion - Beach.unity
+    guid: 01b520958691c964d93c1680ac6e7eb1

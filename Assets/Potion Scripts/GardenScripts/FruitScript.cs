@@ -13,7 +13,9 @@ public class FruitScript : MonoBehaviour, ActivateOnClickScript {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (FlagHandler.ContainsKey ("basketState") && FlagHandler.GetItem ("basketState") != 0) {
+			this.gameObject.SetActive (false);
+		}
 	}
 
 	public void OnBeingClicked() {

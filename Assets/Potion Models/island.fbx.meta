@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: bd73a15c8d70c554abafe1e6fb352847
+timeCreated: 1575677323
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: nurbsToPoly1
+    100004: nurbsToPoly2
+    100006: nurbsToPoly3
+    100008: nurbsToPoly4
+    100010: nurbsToPoly5
+    100012: nurbsToPoly6
+    100014: nurbsToPoly7
+    100016: nurbsToPoly8
+    100018: nurbsToPoly9
+    100020: transform1
+    100022: transform2
+    100024: transform3
+    100026: transform4
+    100028: transform5
+    100030: transform6
+    100032: transform7
+    100034: transform8
+    400000: //RootNode
+    400002: nurbsToPoly1
+    400004: nurbsToPoly2
+    400006: nurbsToPoly3
+    400008: nurbsToPoly4
+    400010: nurbsToPoly5
+    400012: nurbsToPoly6
+    400014: nurbsToPoly7
+    400016: nurbsToPoly8
+    400018: nurbsToPoly9
+    400020: transform1
+    400022: transform2
+    400024: transform3
+    400026: transform4
+    400028: transform5
+    400030: transform6
+    400032: transform7
+    400034: transform8
+    2300000: nurbsToPoly9
+    3300000: nurbsToPoly9
+    4300000: nurbsToPoly9
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island1top
+    second: {fileID: 2100000, guid: 0d077c54aba2fa74a80e2363ab9995b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island2
+    second: {fileID: 2100000, guid: 02670e90f5494c54e8da5535765f98fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island3
+    second: {fileID: 2100000, guid: ee46bb5cb4b4bdf4d9c196c2e139657d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island4
+    second: {fileID: 2100000, guid: 3cc02d7f6ccca5d42be576d0ceb80836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island6b
+    second: {fileID: 2100000, guid: d8ec9e649ebebd3458310e2ae6cc26b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: island_bottom
+    second: {fileID: 2100000, guid: a75045dfd3363f345a3ba2ab393c93af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 326a531019f04464682a9730d232bcbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert8
+    second: {fileID: 2100000, guid: 923578a1db4a6f2429e3403640fd5d2d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

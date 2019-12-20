@@ -15,23 +15,23 @@ public class BasketAScript : MonoBehaviour, ActivateOnClickScript {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!FlagHandler.ContainsKey ("haveFruitsBeenPicked")) {
-			FlagHandler.SetItem ("haveFruitsBeenPicked", 0);
+		if (!FlagHandler.ContainsKey ("basketState")) {
+			FlagHandler.SetItem ("basketState", 0);
 		}
 		if (fruitsInCrate >= fruitPickingThreshold) {
-			FlagHandler.SetItem ("haveFruitsBeenPicked", 1);
+			FlagHandler.SetItem ("basketState", 1);
 		}
 		for (int i = 0; i < pickedFruitProps.Length; i++) {
 			pickedFruitProps [i].SetActive (i < fruitsInCrate);
 		}
-		basketB.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 1);
-		this.gameObject.SetActive (FlagHandler.GetItem ("haveFruitsBeenPicked") == 0);
+		basketB.SetActive (FlagHandler.GetItem ("basketState") != 0);
+		this.gameObject.SetActive (FlagHandler.GetItem ("basketState") == 0);
 	}
 
 	public void OnBeingClicked() {
 		if (FruitScript.holdingFruit) {
 			FruitScript.holdingFruit = false;
-			fruitsInCrate++;
+		fruitsInCrate++;
 		}
 	}
 }

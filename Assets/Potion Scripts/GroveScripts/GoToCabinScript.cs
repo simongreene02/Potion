@@ -19,7 +19,7 @@ public class GoToCabinScript : MonoBehaviour {
 			timer += Time.deltaTime;
 		}
 		if (timer >= 5) {
-			FlagHandler.ChangeScene ("Potion Scenes/Potion - Cabin v1.6");
+			SceneManager.LoadScene("Potion Scenes/Potion - Cabin v1.6");
 		}
 	}
 
