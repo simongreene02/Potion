@@ -18568,7 +18568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1180466354}
-  sceneChangeThreshold: -1000
+  sceneChangeThreshold: -100
 --- !u!64 &1444992412
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -30,6 +30,11 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			miniBasket.SetActive (FlagHandler.GetItem ("carryingBasket") != 0);
 			this.gameObject.SetActive (FlagHandler.GetItem ("carryingBasket") == 0);
 		}
+
+		if (!holdingSeed && seedsInCrate <= 0) {
+			lightRotationScript.enabled = true;
+			plantingSeeds = false;
+		}
 	}
 
 	public void OnBeingClicked() {
@@ -43,9 +48,6 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 					for (int i = 0; i < unplantedSeeds.Length; i++) {
 						unplantedSeeds [i].SetActive (i < seedsInCrate);
 					}
-				} else if (!holdingSeed && seedsInCrate == 0) {
-					lightRotationScript.enabled = true;
-					plantingSeeds = false;
 				}
 			} else {
 				if (FruitHarvestScript.holdingFruit) {

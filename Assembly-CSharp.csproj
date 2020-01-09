@@ -91,6 +91,7 @@
      <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjTogglerTrigger.cs" />
+     <Compile Include="Assets\Potion Scripts\GroveScripts\TitleScreenFade.cs" />
      <Compile Include="Assets\Potion Scripts\HillScripts\EnterBarScript.cs" />
      <Compile Include="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" />
      <Compile Include="Assets\Potion Scripts\MirrorReflection.cs" />
