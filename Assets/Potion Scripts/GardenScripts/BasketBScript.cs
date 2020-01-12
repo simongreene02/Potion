@@ -31,7 +31,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			this.gameObject.SetActive (FlagHandler.GetItem ("carryingBasket") == 0);
 		}
 
-		if (!holdingSeed && seedsInCrate <= 0) {
+		if (plantingSeeds && !holdingSeed && seedsInCrate <= 0) {
 			lightRotationScript.enabled = true;
 			plantingSeeds = false;
 		}
