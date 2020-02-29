@@ -7,6 +7,8 @@ public class TitleScreenFade : MonoBehaviour {
 	public Image titleScreen;
 	public Image fadeToWhite;
 	public MonoBehaviour firstPersonScript;
+	public float fadeInWhiteTime = 10f;
+	public float fadeOutWhiteTime = 10f;
 
 	private float alpha = 0f;
 	private bool phaseTwo = false;
@@ -15,13 +17,14 @@ public class TitleScreenFade : MonoBehaviour {
 	void Start () {
 		firstPersonScript.enabled = false;
 		titleScreen.enabled = true;
+		fadeToWhite.enabled = true;
 		fadeToWhite.color = new Color (1f, 1f, 1f, 1f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (!phaseTwo) {
-			alpha += Time.deltaTime / 10;
+			alpha += Time.deltaTime / fadeInWhiteTime;
 			if (alpha >= 1) {
 				alpha = 1f;
 				phaseTwo = true;
@@ -29,7 +32,7 @@ public class TitleScreenFade : MonoBehaviour {
 				firstPersonScript.enabled = true;
 			}
 		} else {
-			alpha -= Time.deltaTime / 10;
+			alpha -= Time.deltaTime / fadeOutWhiteTime;
 			if (alpha <= 0) {
 				alpha = 0f;
 				fadeToWhite.color = new Color (1f, 1f, 1f, 0f);

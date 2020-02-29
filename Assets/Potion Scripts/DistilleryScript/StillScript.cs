@@ -15,6 +15,12 @@ public class StillScript : MonoBehaviour {
 		if (!FlagHandler.ContainsKey("necklaceInStill")) {
 			FlagHandler.SetItem ("necklaceInStill", 0);
 		}
+		if (!FlagHandler.ContainsKey("catalystInStill")) {
+			FlagHandler.SetItem ("catalystInStill", 0);
+		}
+		if (!FlagHandler.ContainsKey("stillState")) {
+			FlagHandler.SetItem ("stillState", 0);
+		}
 	}
 	
 	// Update is called once per frame
@@ -29,17 +35,20 @@ public class StillScript : MonoBehaviour {
 			print (obj);
 			if (obj == necklace) {
 				FlagHandler.SetItem ("necklaceInStill", 1);
-				FlagHandler.SetItem ("stillState", 1);
+				if (FlagHandler.GetItem ("necklaceInStill") == 1 && FlagHandler.GetItem ("catalystInStill") == 1) {
+					FlagHandler.SetItem ("stillState", 1);
+				}
 				necklace.SetActive (false);
 			} else if (obj == miniCatalyst) {
-				if (FlagHandler.ContainsKey ("stillState") && FlagHandler.GetItem ("stillState") == 1) {
-					FlagHandler.SetItem ("stillState", 2);
-					alchemistTicketToTheOceanScript.Activate ();
-					miniCatalyst.SetActive (false);
+				FlagHandler.SetItem ("catalystInStill", 1);
+				if (FlagHandler.GetItem ("necklaceInStill") == 1 && FlagHandler.GetItem ("catalystInStill") == 1) {
+					FlagHandler.SetItem ("stillState", 1);
 				}
+				alchemistTicketToTheOceanScript.Activate ();
+				miniCatalyst.SetActive (false);
 			} else if (obj == bottle) {
-				if (FlagHandler.ContainsKey ("stillState") && FlagHandler.GetItem ("stillState") == 2) {
-					FlagHandler.SetItem ("stillState", 3);
+				if (FlagHandler.GetItem ("stillState") == 1) {
+					FlagHandler.SetItem ("stillState", 2);
 					charmTicketToTheOceanScript.Activate ();
 					print ("Charm goes to the ocean.");
 					bottle.SetActive (false);

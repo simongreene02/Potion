@@ -15,6 +15,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 
 	// Use this for initialization
 	void Start () {
+		holdingSeed = false;
 		plantingSeeds = true;
 		seedsInCrate = unplantedSeeds.Length;
 	}
