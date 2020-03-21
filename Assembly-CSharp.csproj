@@ -86,6 +86,7 @@
      <Compile Include="Assets\Potion Scripts\FlagHandler.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\BasketFruitScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\FruitHarvestScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\FruitScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\LightRotationScript.cs" />
@@ -105,6 +106,7 @@
      <Compile Include="Assets\Potion Scripts\SceneIDs.cs" />
      <Compile Include="Assets\Potion Scripts\SerializableDictionary.cs" />
      <Compile Include="Assets\Potion Scripts\TicketToTheOceanScript.cs" />
+     <Compile Include="Assets\Potion Scripts\UIManager.cs" />
      <None Include="Assets\Potion Scripts\ClickHandler.txt" />
      <None Include="Assets\TODO.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />

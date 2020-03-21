@@ -8,6 +8,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 	public static bool plantingSeeds = true;
 	public GameObject[] unplantedSeeds;
 	public GameObject[] unplantedSeedCores;
+	public GameObject[] basketParts;
 	private int seedsInCrate;
 	public GameObject miniBasket;
 	public LightRotationScript lightRotationScript;
@@ -18,6 +19,9 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 		holdingSeed = false;
 		plantingSeeds = true;
 		seedsInCrate = unplantedSeeds.Length;
+		foreach (GameObject obj in basketParts) {
+			obj.SetActive (false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -32,25 +36,36 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			this.gameObject.SetActive (FlagHandler.GetItem ("carryingBasket") == 0);
 		}
 
-		if (plantingSeeds && !holdingSeed && seedsInCrate <= 0) {
+		if (plantingSeeds && !holdingSeed && BasketFruitScript.uncollectedSeeds <= 0) {
 			lightRotationScript.enabled = true;
 			plantingSeeds = false;
+		}
+
+		if (!plantingSeeds && !holdingSeed && BasketFruitScript.uncollectedSeeds <= 0 && !lightRotationScript.enabled) {
+			foreach (GameObject obj in basketParts) {
+				obj.SetActive (false);
+			}
+			foreach (GameObject obj in unplantedSeedCores) {
+				obj.SetActive (false);
+				obj.transform.parent = this.gameObject.transform;
+			}
 		}
 	}
 
 	public void OnBeingClicked() {
 		print (plantingSeeds + " " + seedsInCrate + " " + holdingSeed);
 		if (FlagHandler.GetItem ("character") == 2) {
-			if (plantingSeeds) {
-				if (!holdingSeed && seedsInCrate > 0) {
-					print ("Holding Seed.");
-					holdingSeed = true;
-					seedsInCrate--;
-					for (int i = 0; i < unplantedSeeds.Length; i++) {
-						unplantedSeeds [i].SetActive (i < seedsInCrate);
-					}
-				}
-			} else {
+			//if (plantingSeeds) {
+			//	if (!holdingSeed && seedsInCrate > 0) {
+			//		print ("Holding Seed.");
+			//		holdingSeed = true;
+			//		seedsInCrate--;
+			//		for (int i = 0; i < unplantedSeeds.Length; i++) {
+			//			unplantedSeeds [i].SetActive (i < seedsInCrate);
+			//		}
+			//	}
+			//} else {
+			if (!plantingSeeds) {
 				if (FruitHarvestScript.holdingFruit) {
 					FruitHarvestScript.holdingFruit = false;
 					seedsInCrate++;
