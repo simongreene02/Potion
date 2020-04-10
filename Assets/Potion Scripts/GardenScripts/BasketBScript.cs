@@ -10,6 +10,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 	public GameObject[] unplantedSeedCores;
 	public GameObject[] basketParts;
 	private int seedsInCrate;
+	private bool partsActivated = false;
 	public GameObject miniBasket;
 	public LightRotationScript lightRotationScript;
 	public TicketToTheOceanScript ticketToTheOceanScript;
@@ -18,7 +19,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 	void Start () {
 		holdingSeed = false;
 		plantingSeeds = true;
-		seedsInCrate = unplantedSeeds.Length;
+		seedsInCrate = 0;
 		foreach (GameObject obj in basketParts) {
 			obj.SetActive (false);
 		}
@@ -41,10 +42,11 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 			plantingSeeds = false;
 		}
 
-		if (!plantingSeeds && !holdingSeed && BasketFruitScript.uncollectedSeeds <= 0 && !lightRotationScript.enabled) {
+		if (!plantingSeeds && !holdingSeed && BasketFruitScript.uncollectedSeeds <= 0 && !lightRotationScript.enabled && !partsActivated) {
 			foreach (GameObject obj in basketParts) {
-				obj.SetActive (false);
+				obj.SetActive (true);
 			}
+			partsActivated = true;
 			foreach (GameObject obj in unplantedSeedCores) {
 				obj.SetActive (false);
 				obj.transform.parent = this.gameObject.transform;
@@ -87,7 +89,7 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 						unplantedSeedCores [i].GetComponent<MeshRenderer> ().enabled = true;
 					}
 				}
-				if (seedsInCrate >= 16) {
+				if (seedsInCrate >= unplantedSeedCores.Length) {
 					FlagHandler.SetItem ("basketState", 2);
 					ticketToTheOceanScript.Activate ();
 				}

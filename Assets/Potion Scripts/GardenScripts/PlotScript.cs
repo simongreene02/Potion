@@ -21,6 +21,7 @@ public class PlotScript : MonoBehaviour, ActivateOnClickScript {
 			print ("Not Holding Seed.");
 			BasketBScript.holdingSeed = false;
 			plantedSeed.SetActive (true);
+			Destroy (this);
 		}
 	}
 }
