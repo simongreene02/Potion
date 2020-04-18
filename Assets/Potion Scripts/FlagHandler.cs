@@ -51,6 +51,9 @@ public class FlagHandler : MonoBehaviour {
 		mainInstance.flags.OnBeforeSerialize ();
 		sw.Write (JsonUtility.ToJson (mainInstance.flags));
 		sw.Close ();*/
+		foreach (string flag in mainInstance.flags.Keys) {
+			print (flag + ": " + mainInstance.flags[flag]);
+		}
 		SceneManager.LoadScene (sceneName);
 	}
 		

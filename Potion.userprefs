@@ -1,29 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Potion Scripts\GardenScripts\BasketBScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Potion Scripts\FlagHandler.cs">
     <Files>
-      <File FileName="Assets\Potion Scripts\GardenScripts\BasketAScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" Line="45" Column="3" />
-      <File FileName="Assets\Potion Scripts\GardenScripts\FruitHarvestScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\HillScripts\EnterBarScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\FlagHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\BeachScripts\BeachCutsceneScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\GroveScripts\TitleScreenFade.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\CharacterSignScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\ObjectLerpScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\PlayableCharacters.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\ClickHandler.cs" Line="52" Column="3" />
-      <File FileName="Assets\Potion Scripts\BarScripts\DrinkOrderScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\BeachScripts\EndOfGameScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\TicketToTheOceanScript.cs" Line="36" Column="1" />
-      <File FileName="Assets\Potion Scripts\DistilleryScript\StillScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\GardenScripts\PlotScript.cs" Line="24" Column="19" />
-      <File FileName="Assets\Potion Scripts\GardenScripts\FruitScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\GardenScripts\BasketFruitScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\UIManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\ActivateOnClickScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Potion Scripts\ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\Potion Scripts\ClickHandler.cs" Line="14" Column="5" />
+      <File FileName="Assets\Potion Scripts\ClickHandlerUI.cs" Line="16" Column="49" />
+      <File FileName="Assets\Potion Scripts\GardenScripts\BasketBScript.cs" Line="94" Column="1" />
+      <File FileName="Assets\Potion Scripts\GardenTestScript.cs" Line="15" Column="54" />
+      <File FileName="Assets\Potion Scripts\GardenScripts\Path of the Thief\FirstOverlayYesScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Potion Scripts\GardenScripts\Path of the Thief\FirstOverlayNoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Potion Scripts\GardenScripts\Path of the Thief\SecondOverlayNoScript.cs" Line="5" Column="76" />
+      <File FileName="Assets\Potion Scripts\GardenScripts\Path of the Thief\SecondOverlayYesScript.cs" Line="19" Column="26" />
+      <File FileName="Assets\Potion Scripts\HillScripts\EnterBarScript.cs" Line="25" Column="91" />
+      <File FileName="Assets\Potion Scripts\FlagHandler.cs" Line="56" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

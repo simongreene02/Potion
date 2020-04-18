@@ -77,6 +77,7 @@
      <Compile Include="Assets\Potion Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\CharacterSignScript.cs" />
      <Compile Include="Assets\Potion Scripts\ClickHandler.cs" />
+     <Compile Include="Assets\Potion Scripts\ClickHandlerUI.cs" />
      <Compile Include="Assets\Potion Scripts\ConditionalChangeScene.cs" />
      <Compile Include="Assets\Potion Scripts\DistilleryScript\CatalystScript.cs" />
      <Compile Include="Assets\Potion Scripts\DistilleryScript\NecklaceHolderScript.cs" />
@@ -90,7 +91,13 @@
      <Compile Include="Assets\Potion Scripts\GardenScripts\FruitHarvestScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\FruitScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\LightRotationScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\Path of the Thief\FirstOverlayNoScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\Path of the Thief\FirstOverlayYesScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\Path of the Thief\SecondOverlayNoScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\Path of the Thief\SecondOverlayYesScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenScripts\Path of the Thief\ThiefCubeScript.cs" />
      <Compile Include="Assets\Potion Scripts\GardenScripts\PlotScript.cs" />
+     <Compile Include="Assets\Potion Scripts\GardenTestScript.cs" />
      <Compile Include="Assets\Potion Scripts\GoingNowhereScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\GoToCabinScript.cs" />
      <Compile Include="Assets\Potion Scripts\GroveScripts\ObjToggler.cs" />
