@@ -9,6 +9,7 @@ public class ShrinkScript : MonoBehaviour, ActivateOnClickScript {
 	public Vector3 finalPosition;
 	public GameObject player;
 	public Image fadeToBlack;
+	public Image overlay;
 
 	private bool shrinking;
 	private float progress = 0f;
@@ -38,5 +39,6 @@ public class ShrinkScript : MonoBehaviour, ActivateOnClickScript {
 
 	public void OnBeingClicked () {
 		shrinking = true;
+		overlay.enabled = false;
 	}
 }

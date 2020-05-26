@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SecondOverlayYesScript : MonoBehaviour, ActivateOnClickScript {
+public class SecondOverlayYesScript : MonoBehaviour {
 	public GameObject overlay2;
 
 	// Use this for initialization
 	void Start () {
 	}
 
-	public void OnBeingClicked() {
-		overlay2.SetActive (false);
+	public void ClickYesButton() {
 		FlagHandler.SetItem("char2AtBeach", 1);
 		FlagHandler.SetItem("char2Location", (int) SceneIDs.BEACH);
 		FlagHandler.SetItem("carryingBasket", 1);

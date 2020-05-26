@@ -107,6 +107,7 @@
      <Compile Include="Assets\Potion Scripts\HillScripts\MiniBasketScript.cs" />
      <Compile Include="Assets\Potion Scripts\MirrorReflection.cs" />
      <Compile Include="Assets\Potion Scripts\ObjectLerpScript.cs" />
+     <Compile Include="Assets\Potion Scripts\OverlayScript.cs" />
      <Compile Include="Assets\Potion Scripts\PlayableCharacters.cs" />
      <Compile Include="Assets\Potion Scripts\RedRoomScript\BottleScript.cs" />
      <Compile Include="Assets\Potion Scripts\RedRoomScript\RedRoomRugScript.cs" />

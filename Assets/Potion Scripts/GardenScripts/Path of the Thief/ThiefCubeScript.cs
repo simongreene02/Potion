@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ThiefCubeScript : MonoBehaviour, ActivateOnClickScript {
 	public GameObject overlay1;
+	public GameObject interfaceTint;
 
 	// Use this for initialization
 	void Start () {
@@ -12,6 +13,7 @@ public class ThiefCubeScript : MonoBehaviour, ActivateOnClickScript {
 	
 	public void OnBeingClicked() {
 		overlay1.SetActive (true);
+		interfaceTint.SetActive (true);
 		this.gameObject.SetActive (false);
 	}
 }

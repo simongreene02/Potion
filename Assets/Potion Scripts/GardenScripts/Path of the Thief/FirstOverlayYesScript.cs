@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstOverlayYesScript : MonoBehaviour, ActivateOnClickScript {
+public class FirstOverlayYesScript : MonoBehaviour {
 	public GameObject overlay1;
 	public GameObject overlay2;
 
@@ -11,8 +11,8 @@ public class FirstOverlayYesScript : MonoBehaviour, ActivateOnClickScript {
 		overlay2.SetActive (false);
 	}
 
-	public void OnBeingClicked() {
-		overlay1.SetActive (false);
+	public void ClickYesButton() {
 		overlay2.SetActive (true); 
+		overlay1.SetActive (false);
 	}
 }
