@@ -1013,14 +1013,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a9f358c12bc95874683376351dbcae38, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0cd8333b0cfeb6b41a689e86ce543afb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2261,6 +2261,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overlay: {fileID: 470787185}
+--- !u!114 &1081483911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081483907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c81682a0c68064abf1b1765c95b766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1099877369
 Prefab:
   m_ObjectHideFlags: 0
@@ -2985,7 +2996,7 @@ MonoBehaviour:
   character: 3
   sceneTransitionObjects:
   - {fileID: 1363794066}
-  - {fileID: 0}
+  - {fileID: 1150427522}
 --- !u!1 &1283947501 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 8f3dfac89a84b914fb680fdedd70a68e, type: 3}
@@ -4000,7 +4011,7 @@ MonoBehaviour:
   character: 1
   sceneTransitionObjects:
   - {fileID: 1363794066}
-  - {fileID: 0}
+  - {fileID: 1150427522}
 --- !u!1 &1692687685 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100010, guid: 51f69f470e5b0a54da2722e191770cb5, type: 3}

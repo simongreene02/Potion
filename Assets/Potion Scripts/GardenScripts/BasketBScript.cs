@@ -20,8 +20,10 @@ public class BasketBScript : MonoBehaviour, ActivateOnClickScript {
 		holdingSeed = false;
 		plantingSeeds = true;
 		seedsInCrate = 0;
-		foreach (GameObject obj in basketParts) {
-			obj.SetActive (false);
+		if (FlagHandler.GetItem ("character") == 2) {
+			foreach (GameObject obj in basketParts) {
+				obj.SetActive (false);
+			}
 		}
 	}
 	
